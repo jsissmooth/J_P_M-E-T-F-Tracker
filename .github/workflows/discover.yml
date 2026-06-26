@@ -12,6 +12,6 @@ jobs:
         with:
           python-version: "3.11"
       - name: Install deps
-        run: pip install playwright && playwright install chromium && playwright install-deps chromium
+        run: pip install requests playwright && playwright install chromium && playwright install-deps chromium
       - name: Run discovery
         run: python scripts/discover_api.py
