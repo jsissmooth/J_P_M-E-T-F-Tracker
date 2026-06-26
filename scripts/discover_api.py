@@ -1,100 +1,92 @@
 import sys
 import json
+import requests
 from playwright.sync_api import sync_playwright
 
+# CUSIPs extracted from the ETF page URLs
 ETFS = {
-    "JEPQ": "https://am.jpmorgan.com/us/en/asset-management/adv/products/jpmorgan-nasdaq-equity-premium-income-etf-etf-shares-46654q203",
-    "JEPI": "https://am.jpmorgan.com/us/en/asset-management/adv/products/jpmorgan-equity-premium-income-etf-etf-shares-46641q332",
+    "JEPQ": "46654Q203",
+    "JEPI": "46641Q332",
+    "SCDS": "46654Q666",
+    "JMOM": "46641Q779",
+    "JMEE": "46641Q118",
+    "JPSE": "46641Q845",
+    "JVAL": "46641Q753",
+    "JTEK": "46654Q732",
+    "JPSV": "46654Q708",
+    "LVDS": "46654Q583",
+    "MCDS": "46654Q674",
+    "JPME": "46641Q886",
+    "JPRE": "46641Q126",
+    "JQUA": "46641Q761",
+    "JAVA": "46641Q167",
+    "JPEF": "46654Q781",
 }
 
-def discover(ticker, url):
+BASE = "https://am.jpmorgan.com/FundsMarketingHandler"
+
+def get_version():
+    """Grab the version parameter from the main JPM page."""
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
         context = browser.new_context(
-            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
             viewport={"width": 1920, "height": 1080},
         )
-
-        captured_requests  = []
-        captured_responses = []
-
-        def handle_request(request):
-            url_r = request.url
-            method = request.method
-            if method == "POST" or any(k in url_r for k in [
-                "holdings", "portfolio", "fund", "positions",
-                "api", "graphql", "data", "etf"
-            ]):
-                try:
-                    captured_requests.append({
-                        "url":    url_r,
-                        "method": method,
-                        "body":   request.post_data or "",
-                        "headers": dict(request.headers),
-                    })
-                except Exception:
-                    pass
+        page = context.new_page()
+        version_found = []
 
         def handle_response(response):
-            try:
-                url_r = response.url
-                ct = response.headers.get("content-type", "")
-                if "json" in ct and any(k in url_r for k in [
-                    "holdings", "portfolio", "fund", "positions",
-                    "api", "graphql", "data", "etf", "jpmorgan"
-                ]):
-                    try:
-                        data = response.json()
-                        text = json.dumps(data)
-                        if len(text) > 200:
-                            captured_responses.append({
-                                "url":  url_r,
-                                "data": text[:1000],
-                            })
-                    except Exception:
-                        pass
-            except Exception:
-                pass
+            url = response.url
+            if "FundsMarketingHandler" in url and "version=" in url:
+                import urllib.parse
+                parsed = urllib.parse.urlparse(url)
+                params = urllib.parse.parse_qs(parsed.query)
+                if "version" in params:
+                    version_found.append(params["version"][0])
 
-        page = context.new_page()
-        page.on("request",  handle_request)
         page.on("response", handle_response)
-
-        print("Loading {}...".format(url), file=sys.stderr)
-        page.goto(url, wait_until="networkidle", timeout=90000)
-        page.wait_for_timeout(8000)
-
-        # scroll to trigger lazy loading
-        page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
+        page.goto(
+            "https://am.jpmorgan.com/us/en/asset-management/adv/products/jpmorgan-nasdaq-equity-premium-income-etf-etf-shares-46654q203",
+            wait_until="networkidle", timeout=60000
+        )
         page.wait_for_timeout(5000)
-
-        # try clicking a Holdings tab if it exists
-        for label in ["Holdings", "Portfolio", "Portfolio Holdings"]:
-            try:
-                btn = page.get_by_text(label, exact=True).first
-                if btn.is_visible(timeout=2000):
-                    btn.click()
-                    print("  Clicked: {}".format(label), file=sys.stderr)
-                    page.wait_for_timeout(5000)
-                    break
-            except Exception:
-                pass
-
-        page.wait_for_timeout(5000)
-
-        print("\n=== REQUESTS for {} ===".format(ticker), file=sys.stderr)
-        for r in captured_requests[-20:]:
-            print("  [{}] {}".format(r["method"], r["url"]), file=sys.stderr)
-            if r["body"]:
-                print("    body: {}".format(r["body"][:200]), file=sys.stderr)
-
-        print("\n=== JSON RESPONSES for {} ===".format(ticker), file=sys.stderr)
-        for r in captured_responses:
-            print("  URL: {}".format(r["url"]), file=sys.stderr)
-            print("  Data: {}".format(r["data"][:400]), file=sys.stderr)
-
         browser.close()
+        return version_found[0] if version_found else "9.12"
 
-for ticker, url in ETFS.items():
-    discover(ticker, url)
-    print("\n" + "="*60 + "\n", file=sys.stderr)
+print("Getting version parameter...", file=sys.stderr)
+version = get_version()
+print("Version: {}".format(version), file=sys.stderr)
+
+headers = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+    "Referer": "https://am.jpmorgan.com/",
+    "Accept": "application/json, text/plain, */*",
+}
+
+# Try JEPQ with several endpoint patterns
+cusip = "46654Q203"
+endpoints = [
+    "{}/product-data?cusip={}&country=us&role=adv&language=en&userLoggedIn=false&version={}".format(BASE, cusip, version),
+    "{}/holdings?cusip={}&country=us&role=adv&language=en&userLoggedIn=false&version={}".format(BASE, cusip, version),
+    "{}/portfolio?cusip={}&country=us&role=adv&language=en&userLoggedIn=false&version={}".format(BASE, cusip, version),
+    "{}/fund-holdings?cusip={}&country=us&role=adv&language=en&userLoggedIn=false&version={}".format(BASE, cusip, version),
+    "{}/portfolioHoldings?cusip={}&country=us&role=adv&language=en&userLoggedIn=false&version={}".format(BASE, cusip, version),
+]
+
+for url in endpoints:
+    print("\nTrying: {}".format(url), file=sys.stderr)
+    try:
+        r = requests.get(url, headers=headers, timeout=15)
+        print("  Status: {}".format(r.status_code), file=sys.stderr)
+        if r.status_code == 200:
+            data = r.json()
+            text = json.dumps(data)
+            print("  Response length: {} chars".format(len(text)), file=sys.stderr)
+            print("  Top-level keys: {}".format(list(data.keys()) if isinstance(data, dict) else "list"), file=sys.stderr)
+            # print first 2000 chars
+            print("  Preview: {}".format(text[:2000]), file=sys.stderr)
+        else:
+            print("  Body: {}".format(r.text[:200]), file=sys.stderr)
+    except Exception as e:
+        print("  Error: {}".format(e), file=sys.stderr)
