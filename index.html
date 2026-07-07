@@ -34,6 +34,22 @@
       transition:color .15s,border-color .15s;margin-bottom:-1px}
     .tab-btn:hover{color:var(--text)}
     .tab-btn.active{color:#fff;border-bottom-color:var(--accent)}
+    .etf-subtitle{
+      padding:10px 32px;
+      background:var(--surface);
+      border-bottom:1px solid var(--border);
+      font-family:var(--sans);
+      font-size:13px;
+      color:var(--muted);
+      letter-spacing:.02em;
+      min-height:38px;
+    }
+    .etf-subtitle strong{
+      color:var(--accent);
+      font-family:var(--mono);
+      font-size:12px;
+      margin-right:10px;
+    }
     main{padding:24px 32px;max-width:1800px;margin:0 auto}
     .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:24px}
     .stat{background:var(--surface);border:1px solid var(--border);border-radius:6px;padding:16px 18px}
@@ -99,7 +115,7 @@
     @keyframes spin{to{transform:rotate(360deg)}}
     @media(max-width:900px){
       header,main{padding-left:16px;padding-right:16px}
-      .tab-bar{padding:0 16px}
+      .tab-bar,.etf-subtitle{padding-left:16px;padding-right:16px}
       .stats{grid-template-columns:repeat(2,1fr)}
     }
   </style>
@@ -113,6 +129,7 @@
   </div>
 </header>
 <div class="tab-bar" id="tabBar"></div>
+<div class="etf-subtitle" id="etfSubtitle"></div>
 <main>
   <div class="stats">
     <div class="stat"><div class="stat-label">Total Holdings</div><div class="stat-value" id="statTotal">--</div></div>
@@ -144,14 +161,22 @@
 <script>
   var ETFS = ["JEPQ","JEPI","SCDS","JMOM","JMEE","JPSE","JVAL","JTEK","JPSV","LVDS","MCDS","JPME","JPRE","JQUA","JAVA","JPEF"];
   var ETF_NAMES = {
-    "JEPQ":"Nasdaq Equity Premium Income","JEPI":"Equity Premium Income",
-    "SCDS":"Data Science Small Core","JMOM":"U.S. Momentum Factor",
-    "JMEE":"Small-Mid Cap Enhanced Equity","JPSE":"Diversified Return US Small Cap",
-    "JVAL":"U.S. Value Factor","JTEK":"U.S. Tech Leaders",
-    "JPSV":"Active Small Cap Value","LVDS":"Data Science Large Value",
-    "MCDS":"Data Science Mid Core","JPME":"Diversified Return US Mid Cap",
-    "JPRE":"Realty Income","JQUA":"U.S. Quality Factor",
-    "JAVA":"Active Value","JPEF":"Equity Focus"
+    "JEPQ":"Nasdaq Equity Premium Income",
+    "JEPI":"Equity Premium Income",
+    "SCDS":"Fundamental Data Science Small Core",
+    "JMOM":"U.S. Momentum Factor",
+    "JMEE":"Small-Mid Cap Enhanced Equity",
+    "JPSE":"Diversified Return U.S. Small Cap Equity",
+    "JVAL":"U.S. Value Factor",
+    "JTEK":"U.S. Tech Leaders",
+    "JPSV":"Active Small Cap Value",
+    "LVDS":"Fundamental Data Science Large Value",
+    "MCDS":"Fundamental Data Science Mid Core",
+    "JPME":"Diversified Return U.S. Mid Cap Equity",
+    "JPRE":"Realty Income",
+    "JQUA":"U.S. Quality Factor",
+    "JAVA":"Active Value",
+    "JPEF":"Equity Focus"
   };
 
   var currentTicker = ETFS[0];
@@ -160,6 +185,11 @@
   var activePeriod  = 1;
   var sortCol       = null;
   var sortDir       = "asc";
+
+  function updateSubtitle(ticker) {
+    document.getElementById("etfSubtitle").innerHTML =
+      '<strong>' + ticker + '</strong>' + (ETF_NAMES[ticker] || "");
+  }
 
   var tabBar = document.getElementById("tabBar");
   ETFS.forEach(function(t) {
@@ -182,6 +212,7 @@
     sortDir = "asc";
     document.querySelectorAll(".filter-btn").forEach(function(b, i) { b.classList.toggle("active", i===0); });
     document.getElementById("searchInput").value = "";
+    updateSubtitle(ticker);
     loadCurrentTab();
   }
 
@@ -221,7 +252,7 @@
           var priorIdx   = Math.min(activePeriod, history.length - 1);
           var priorEntry = history[priorIdx];
           if (!priorEntry || priorEntry.date === todayEntry.date)
-            throw new Error("Not enough history for " + activePeriod + "D. Check back later.");
+            throw new Error("Not enough history for " + activePeriod + "D yet.");
           return Promise.all([
             fetchJSON(base + todayEntry.date + ".json"),
             fetchJSON(base + priorEntry.date + ".json")
@@ -258,14 +289,14 @@
         });
       } else if (t) {
         rows.push({ ticker:t.ticker||"", name:t.name||"", identifier:t.identifier||"",
-          sector:t.sector||"", status:"added", quantity_today:t.quantity||0,
-          quantity_prior:null, quantity_pct_change:null,
+          sector:t.sector||"", status:"added",
+          quantity_today:t.quantity||0, quantity_prior:null, quantity_pct_change:null,
           pct_of_fund_today:t.pct_of_fund||0, pct_of_fund_prior:null,
           pct_of_fund_change:null, market_value_today:t.market_value });
       } else {
         rows.push({ ticker:p.ticker||"", name:p.name||"", identifier:p.identifier||"",
-          sector:p.sector||"", status:"removed", quantity_today:null,
-          quantity_prior:p.quantity||0, quantity_pct_change:null,
+          sector:p.sector||"", status:"removed",
+          quantity_today:null, quantity_prior:p.quantity||0, quantity_pct_change:null,
           pct_of_fund_today:null, pct_of_fund_prior:p.pct_of_fund||0,
           pct_of_fund_change:null, market_value_today:null });
       }
@@ -309,19 +340,23 @@
 
   function handleColSort(col) {
     if (sortCol === col) { sortDir = sortDir === "asc" ? "desc" : "asc"; }
-    else { sortCol = col; sortDir = ["quantity_pct_change","pct_of_fund_today","market_value_today",
-      "quantity_today","quantity_prior","pct_of_fund_prior","pct_of_fund_change"].indexOf(col) >= 0 ? "desc" : "asc"; }
+    else {
+      sortCol = col;
+      sortDir = ["quantity_pct_change","pct_of_fund_today","market_value_today",
+                 "quantity_today","quantity_prior","pct_of_fund_prior",
+                 "pct_of_fund_change"].indexOf(col) >= 0 ? "desc" : "asc";
+    }
     renderTable();
   }
 
   function getSortedFiltered() {
-    var q = document.getElementById("searchInput").value.trim().toUpperCase();
+    var query = document.getElementById("searchInput").value.trim().toUpperCase();
     var rows = allRows.filter(function(r) {
       if (activeFilter !== "all" && r.status !== activeFilter) return false;
-      if (q) {
-        var ok = (r.ticker && r.ticker.toUpperCase().indexOf(q) !== -1) ||
-                 (r.name   && r.name.toUpperCase().indexOf(q)   !== -1) ||
-                 (r.sector && r.sector.toUpperCase().indexOf(q) !== -1);
+      if (query) {
+        var ok = (r.ticker && r.ticker.toUpperCase().indexOf(query) !== -1) ||
+                 (r.name   && r.name.toUpperCase().indexOf(query)   !== -1) ||
+                 (r.sector && r.sector.toUpperCase().indexOf(query) !== -1);
         if (!ok) return false;
       }
       return true;
@@ -337,7 +372,7 @@
       }
       if (sortCol==="ticker")  { cmp=(a.ticker||"").localeCompare(b.ticker||""); return sortDir==="asc"?cmp:-cmp; }
       if (sortCol==="name")    { cmp=(a.name||"").localeCompare(b.name||"");     return sortDir==="asc"?cmp:-cmp; }
-      if (sortCol==="sector")  { cmp=(a.sector||"").localeCompare(b.sector||""); return sortDir==="asc"?cmp:-cmp; }
+      if (sortCol==="sector")  { cmp=(a.sector||"").localeCompare(b.sector||"");return sortDir==="asc"?cmp:-cmp; }
       if (sortCol==="status")  { cmp=(so[a.status]||9)-(so[b.status]||9);       return sortDir==="asc"?cmp:-cmp; }
       if (numCols.indexOf(sortCol)>=0) {
         var av=a[sortCol]!=null?a[sortCol]:-1e12, bv=b[sortCol]!=null?b[sortCol]:-1e12;
@@ -352,25 +387,27 @@
 
   function fmtQty(v) {
     if (v==null) return '<span class="na">--</span>';
-    if (v>=1e6) return (v/1e6).toFixed(3)+"M";
+    if (v>=1e6)  return (v/1e6).toFixed(3)+"M";
     if (v>=1000) return (v/1000).toFixed(2)+"K";
     return v.toFixed(0);
   }
-  function fmtPct(v) { return v==null?'<span class="na">--</span>':v.toFixed(4)+"%"; }
+  function fmtPct(v) {
+    return v==null ? '<span class="na">--</span>' : v.toFixed(4)+"%";
+  }
   function fmtMV(v) {
     if (v==null) return '<span class="na">--</span>';
-    if (v>=1e9) return "$"+(v/1e9).toFixed(2)+"B";
-    if (v>=1e6) return "$"+(v/1e6).toFixed(2)+"M";
+    if (v>=1e9)  return "$"+(v/1e9).toFixed(2)+"B";
+    if (v>=1e6)  return "$"+(v/1e6).toFixed(2)+"M";
     if (v>=1000) return "$"+(v/1000).toFixed(2)+"K";
     return "$"+v.toFixed(0);
   }
   function fmtChg(v, isPct) {
     if (v==null) return '<span class="na">--</span>';
-    var cls=v>0?"chg-pos":v<0?"chg-neg":"chg-zero";
-    var sign=v>0?"+":"";
-    var txt=isPct?sign+v.toFixed(4)+"pp":sign+v.toFixed(2)+"%";
-    var bw=Math.min(Math.abs(v)/(isPct?2:20)*36,36);
-    var bc=v>0?"var(--green)":v<0?"var(--red)":"var(--muted)";
+    var cls  = v>0?"chg-pos":v<0?"chg-neg":"chg-zero";
+    var sign = v>0?"+":"";
+    var txt  = isPct ? sign+v.toFixed(4)+"pp" : sign+v.toFixed(2)+"%";
+    var bw   = Math.min(Math.abs(v)/(isPct?2:20)*36,36);
+    var bc   = v>0?"var(--green)":v<0?"var(--red)":"var(--muted)";
     return '<div class="bar-wrap"><span class="'+cls+'">'+txt+'</span>'+
            '<span class="mini-bar" style="width:'+bw+'px;background:'+bc+';opacity:.5"></span></div>';
   }
@@ -386,44 +423,45 @@
       return;
     }
     var cols = [
-      {key:"ticker",             label:"Ticker",         num:false},
-      {key:"name",               label:"Name",           num:false},
-      {key:"sector",             label:"Sector",         num:false},
-      {key:"status",             label:"Status",         num:false},
-      {key:"quantity_prior",     label:"Qty (Prior)",    num:true},
-      {key:"quantity_today",     label:"Qty (Today)",    num:true},
-      {key:"quantity_pct_change",label:"Qty Delta %",    num:true},
-      {key:"pct_of_fund_prior",  label:"Wt (Prior)",     num:true},
-      {key:"pct_of_fund_today",  label:"Wt (Today)",     num:true},
-      {key:"pct_of_fund_change", label:"Wt Delta",       num:true},
-      {key:"market_value_today", label:"Market Value",   num:true},
+      {key:"ticker",             label:"Ticker",        num:false},
+      {key:"name",               label:"Name",          num:false},
+      {key:"sector",             label:"Sector",        num:false},
+      {key:"status",             label:"Status",        num:false},
+      {key:"quantity_prior",     label:"Qty (Prior)",   num:true},
+      {key:"quantity_today",     label:"Qty (Today)",   num:true},
+      {key:"quantity_pct_change",label:"Qty Delta %",   num:true},
+      {key:"pct_of_fund_prior",  label:"Wt (Prior)",    num:true},
+      {key:"pct_of_fund_today",  label:"Wt (Today)",    num:true},
+      {key:"pct_of_fund_change", label:"Wt Delta",      num:true},
+      {key:"market_value_today", label:"Market Value",  num:true},
     ];
     var thead = "<thead><tr>";
     cols.forEach(function(c) {
-      var cls = (c.num?"num ":"") + thCls(c.key);
-      thead += '<th class="'+cls+'" onclick="handleColSort(\''+c.key+'\')">'+c.label+'</th>';
+      var cls=(c.num?"num ":"")+thCls(c.key);
+      thead+='<th class="'+cls+'" onclick="handleColSort(\''+c.key+'\')">'+c.label+'</th>';
     });
-    thead += "</tr></thead>";
-    var tbody = "<tbody>";
+    thead+="</tr></thead>";
+    var tbody="<tbody>";
     rows.forEach(function(r) {
-      tbody += '<tr class="row-'+r.status+'">';
-      tbody += '<td class="ticker-cell">'+(r.ticker||'<span class="na">--</span>')+'</td>';
-      tbody += '<td class="name-cell" title="'+(r.name||"")+'">'+(r.name||'<span class="na">--</span>')+'</td>';
-      tbody += '<td class="sector-cell" title="'+(r.sector||"")+'">'+(r.sector||'<span class="na">--</span>')+'</td>';
-      tbody += '<td>'+badge(r.status)+'</td>';
-      tbody += '<td class="num">'+fmtQty(r.quantity_prior)+'</td>';
-      tbody += '<td class="num">'+fmtQty(r.quantity_today)+'</td>';
-      tbody += '<td class="num">'+fmtChg(r.quantity_pct_change,false)+'</td>';
-      tbody += '<td class="num">'+fmtPct(r.pct_of_fund_prior)+'</td>';
-      tbody += '<td class="num">'+fmtPct(r.pct_of_fund_today)+'</td>';
-      tbody += '<td class="num">'+fmtChg(r.pct_of_fund_change,true)+'</td>';
-      tbody += '<td class="num">'+fmtMV(r.market_value_today)+'</td>';
-      tbody += '</tr>';
+      tbody+='<tr class="row-'+r.status+'">';
+      tbody+='<td class="ticker-cell">'+(r.ticker||'<span class="na">--</span>')+'</td>';
+      tbody+='<td class="name-cell" title="'+(r.name||"")+'">'+(r.name||'<span class="na">--</span>')+'</td>';
+      tbody+='<td class="sector-cell" title="'+(r.sector||"")+'">'+(r.sector||'<span class="na">--</span>')+'</td>';
+      tbody+='<td>'+badge(r.status)+'</td>';
+      tbody+='<td class="num">'+fmtQty(r.quantity_prior)+'</td>';
+      tbody+='<td class="num">'+fmtQty(r.quantity_today)+'</td>';
+      tbody+='<td class="num">'+fmtChg(r.quantity_pct_change,false)+'</td>';
+      tbody+='<td class="num">'+fmtPct(r.pct_of_fund_prior)+'</td>';
+      tbody+='<td class="num">'+fmtPct(r.pct_of_fund_today)+'</td>';
+      tbody+='<td class="num">'+fmtChg(r.pct_of_fund_change,true)+'</td>';
+      tbody+='<td class="num">'+fmtMV(r.market_value_today)+'</td>';
+      tbody+='</tr>';
     });
-    tbody += "</tbody>";
-    document.getElementById("tableWrap").innerHTML = '<table>'+thead+tbody+'</table>';
+    tbody+="</tbody>";
+    document.getElementById("tableWrap").innerHTML='<table>'+thead+tbody+'</table>';
   }
 
+  updateSubtitle(currentTicker);
   loadCurrentTab();
 </script>
 </body>
