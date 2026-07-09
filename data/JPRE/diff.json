@@ -1,7 +1,7 @@
 {
-  "date": "2026-07-08",
+  "date": "2026-07-09",
   "ticker": "JPRE",
-  "prior_date": "2026-07-07",
+  "prior_date": "2026-07-08",
   "diff": [
     {
       "ticker": "ADC",
@@ -12,10 +12,10 @@
       "quantity_today": 69141,
       "quantity_prior": 69141,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 1.11,
+      "pct_of_fund_today": 1.12,
       "pct_of_fund_prior": 1.11,
-      "pct_of_fund_change": 0.0,
-      "market_value_today": 5420654.4
+      "pct_of_fund_change": 0.01,
+      "market_value_today": 5387466.72
     },
     {
       "ticker": "AMT",
@@ -26,10 +26,10 @@
       "quantity_today": 162644,
       "quantity_prior": 162644,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 5.52,
-      "pct_of_fund_prior": 5.49,
-      "pct_of_fund_change": 0.03,
-      "market_value_today": 26876921.0
+      "pct_of_fund_today": 5.59,
+      "pct_of_fund_prior": 5.52,
+      "pct_of_fund_change": 0.07,
+      "market_value_today": 26842765.76
     },
     {
       "ticker": "ARE",
@@ -40,10 +40,10 @@
       "quantity_today": 79106,
       "quantity_prior": 79106,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.8,
-      "pct_of_fund_prior": 0.82,
-      "pct_of_fund_change": -0.02,
-      "market_value_today": 3908627.46
+      "pct_of_fund_today": 0.79,
+      "pct_of_fund_prior": 0.8,
+      "pct_of_fund_change": -0.01,
+      "market_value_today": 3800252.24
     },
     {
       "ticker": "BNL",
@@ -54,10 +54,10 @@
       "quantity_today": 184236,
       "quantity_prior": 184236,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.81,
+      "pct_of_fund_today": 0.84,
       "pct_of_fund_prior": 0.81,
-      "pct_of_fund_change": 0.0,
-      "market_value_today": 3942650.4
+      "pct_of_fund_change": 0.03,
+      "market_value_today": 4025556.6
     },
     {
       "ticker": "",
@@ -65,13 +65,13 @@
       "identifier": "CASH",
       "sector": "",
       "status": "changed",
-      "quantity_today": 1962,
-      "quantity_prior": -51165,
-      "quantity_pct_change": -103.8347,
-      "pct_of_fund_today": 0,
-      "pct_of_fund_prior": -0.01,
-      "pct_of_fund_change": 0.01,
-      "market_value_today": 1962.02
+      "quantity_today": 3094152,
+      "quantity_prior": 1962,
+      "quantity_pct_change": 157603.9755,
+      "pct_of_fund_today": 0.64,
+      "pct_of_fund_prior": 0,
+      "pct_of_fund_change": 0.64,
+      "market_value_today": 3094152.25
     },
     {
       "ticker": "CBRE",
@@ -82,10 +82,10 @@
       "quantity_today": 55131,
       "quantity_prior": 55131,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 1.63,
-      "pct_of_fund_prior": 1.61,
-      "pct_of_fund_change": 0.02,
-      "market_value_today": 7923978.63
+      "pct_of_fund_today": 1.61,
+      "pct_of_fund_prior": 1.63,
+      "pct_of_fund_change": -0.02,
+      "market_value_today": 7715032.14
     },
     {
       "ticker": "CCI",
@@ -96,10 +96,10 @@
       "quantity_today": 154885,
       "quantity_prior": 154885,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 2.45,
-      "pct_of_fund_prior": 2.42,
+      "pct_of_fund_today": 2.48,
+      "pct_of_fund_prior": 2.45,
       "pct_of_fund_change": 0.03,
-      "market_value_today": 11960219.7
+      "market_value_today": 11910656.5
     },
     {
       "ticker": "COLD",
@@ -110,10 +110,10 @@
       "quantity_today": 148867,
       "quantity_prior": 148867,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.5,
+      "pct_of_fund_today": 0.49,
       "pct_of_fund_prior": 0.5,
-      "pct_of_fund_change": 0.0,
-      "market_value_today": 2419088.75
+      "pct_of_fund_change": -0.01,
+      "market_value_today": 2340189.24
     },
     {
       "ticker": "CUBE",
@@ -124,10 +124,10 @@
       "quantity_today": 161705,
       "quantity_prior": 161705,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 1.36,
-      "pct_of_fund_prior": 1.35,
-      "pct_of_fund_change": 0.01,
-      "market_value_today": 6610500.4
+      "pct_of_fund_today": 1.35,
+      "pct_of_fund_prior": 1.36,
+      "pct_of_fund_change": -0.01,
+      "market_value_today": 6458497.7
     },
     {
       "ticker": "CUZ",
@@ -138,10 +138,10 @@
       "quantity_today": 207990,
       "quantity_prior": 207990,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 1.31,
-      "pct_of_fund_prior": 1.33,
-      "pct_of_fund_change": -0.02,
-      "market_value_today": 6395692.5
+      "pct_of_fund_today": 1.3,
+      "pct_of_fund_prior": 1.31,
+      "pct_of_fund_change": -0.01,
+      "market_value_today": 6243859.8
     },
     {
       "ticker": "DEI",
@@ -152,24 +152,24 @@
       "quantity_today": 657197,
       "quantity_prior": 657197,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 1.64,
-      "pct_of_fund_prior": 1.72,
-      "pct_of_fund_change": -0.08,
-      "market_value_today": 8011231.43
+      "pct_of_fund_today": 1.6,
+      "pct_of_fund_prior": 1.64,
+      "pct_of_fund_change": -0.04,
+      "market_value_today": 7676060.96
     },
     {
       "ticker": "DLR",
       "name": "DIGITAL REALTY TRUST INC",
       "identifier": "253868103",
       "sector": "Real Estate",
-      "status": "unchanged",
-      "quantity_today": 169618,
+      "status": "changed",
+      "quantity_today": 177963,
       "quantity_prior": 169618,
-      "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 6.09,
-      "pct_of_fund_prior": 6.13,
-      "pct_of_fund_change": -0.04,
-      "market_value_today": 29666188.2
+      "quantity_pct_change": 4.9199,
+      "pct_of_fund_today": 6.54,
+      "pct_of_fund_prior": 6.09,
+      "pct_of_fund_change": 0.45,
+      "market_value_today": 31374876.9
     },
     {
       "ticker": "DOC",
@@ -180,10 +180,10 @@
       "quantity_today": 620177,
       "quantity_prior": 620177,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 2.79,
-      "pct_of_fund_prior": 2.81,
-      "pct_of_fund_change": -0.02,
-      "market_value_today": 13600481.61
+      "pct_of_fund_today": 2.81,
+      "pct_of_fund_prior": 2.79,
+      "pct_of_fund_change": 0.02,
+      "market_value_today": 13501253.29
     },
     {
       "ticker": "EGP",
@@ -194,10 +194,10 @@
       "quantity_today": 56768,
       "quantity_prior": 56768,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 2.5,
-      "pct_of_fund_prior": 2.51,
-      "pct_of_fund_change": -0.01,
-      "market_value_today": 12183548.16
+      "pct_of_fund_today": 2.48,
+      "pct_of_fund_prior": 2.5,
+      "pct_of_fund_change": -0.02,
+      "market_value_today": 11925253.76
     },
     {
       "ticker": "ELS",
@@ -208,10 +208,10 @@
       "quantity_today": 158401,
       "quantity_prior": 158401,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 2.13,
-      "pct_of_fund_prior": 2.14,
-      "pct_of_fund_change": -0.01,
-      "market_value_today": 10356257.38
+      "pct_of_fund_today": 2.11,
+      "pct_of_fund_prior": 2.13,
+      "pct_of_fund_change": -0.02,
+      "market_value_today": 10107567.81
     },
     {
       "ticker": "EQIX",
@@ -222,10 +222,10 @@
       "quantity_today": 41179,
       "quantity_prior": 41179,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 8.65,
-      "pct_of_fund_prior": 8.56,
-      "pct_of_fund_change": 0.09,
-      "market_value_today": 42123234.47
+      "pct_of_fund_today": 8.72,
+      "pct_of_fund_prior": 8.65,
+      "pct_of_fund_change": 0.07,
+      "market_value_today": 41836628.63
     },
     {
       "ticker": "ESS",
@@ -236,10 +236,10 @@
       "quantity_today": 43608,
       "quantity_prior": 43608,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 2.67,
-      "pct_of_fund_prior": 2.7,
-      "pct_of_fund_change": -0.03,
-      "market_value_today": 13009138.56
+      "pct_of_fund_today": 2.65,
+      "pct_of_fund_prior": 2.67,
+      "pct_of_fund_change": -0.02,
+      "market_value_today": 12715220.64
     },
     {
       "ticker": "EXR",
@@ -250,10 +250,10 @@
       "quantity_today": 36142,
       "quantity_prior": 36142,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 1.1,
+      "pct_of_fund_today": 1.08,
       "pct_of_fund_prior": 1.1,
-      "pct_of_fund_change": 0.0,
-      "market_value_today": 5339257.66
+      "pct_of_fund_change": -0.02,
+      "market_value_today": 5204086.58
     },
     {
       "ticker": "HST",
@@ -264,10 +264,10 @@
       "quantity_today": 276256,
       "quantity_prior": 276256,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 1.32,
-      "pct_of_fund_prior": 1.34,
-      "pct_of_fund_change": -0.02,
-      "market_value_today": 6450577.6
+      "pct_of_fund_today": 1.31,
+      "pct_of_fund_prior": 1.32,
+      "pct_of_fund_change": -0.01,
+      "market_value_today": 6287586.56
     },
     {
       "ticker": "INVH",
@@ -278,10 +278,10 @@
       "quantity_today": 283725,
       "quantity_prior": 283725,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 1.76,
-      "pct_of_fund_prior": 1.77,
+      "pct_of_fund_today": 1.75,
+      "pct_of_fund_prior": 1.76,
       "pct_of_fund_change": -0.01,
-      "market_value_today": 8568495.0
+      "market_value_today": 8406771.75
     },
     {
       "ticker": "IRT",
@@ -292,38 +292,38 @@
       "quantity_today": 349478,
       "quantity_prior": 349478,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 1.24,
-      "pct_of_fund_prior": 1.25,
+      "pct_of_fund_today": 1.23,
+      "pct_of_fund_prior": 1.24,
       "pct_of_fund_change": -0.01,
-      "market_value_today": 6063443.3
+      "market_value_today": 5892199.08
     },
     {
       "ticker": "JAN",
       "name": "JANUS LIVING INC REIT",
       "identifier": "471024109",
       "sector": "Real Estate",
-      "status": "unchanged",
-      "quantity_today": 201065,
+      "status": "changed",
+      "quantity_today": 168079,
       "quantity_prior": 201065,
-      "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 1.23,
+      "quantity_pct_change": -16.4056,
+      "pct_of_fund_today": 1.03,
       "pct_of_fund_prior": 1.23,
-      "pct_of_fund_change": 0.0,
-      "market_value_today": 6001790.25
+      "pct_of_fund_change": -0.2,
+      "market_value_today": 4928076.28
     },
     {
       "ticker": "JIMXX",
       "name": "JPMORGAN PRIME MONEY",
       "identifier": "46637K844",
       "sector": "",
-      "status": "changed",
+      "status": "unchanged",
       "quantity_today": 5678134,
-      "quantity_prior": 5731257,
-      "quantity_pct_change": -0.9269,
-      "pct_of_fund_today": 1.17,
-      "pct_of_fund_prior": 1.19,
-      "pct_of_fund_change": -0.02,
-      "market_value_today": 5678702.6
+      "quantity_prior": 5678134,
+      "quantity_pct_change": 0.0,
+      "pct_of_fund_today": 1.18,
+      "pct_of_fund_prior": 1.17,
+      "pct_of_fund_change": 0.01,
+      "market_value_today": 5678134.78
     },
     {
       "ticker": "KIM",
@@ -337,7 +337,7 @@
       "pct_of_fund_today": 1.58,
       "pct_of_fund_prior": 1.58,
       "pct_of_fund_change": 0.0,
-      "market_value_today": 7687350.72
+      "market_value_today": 7590080.96
     },
     {
       "ticker": "MAA",
@@ -349,9 +349,9 @@
       "quantity_prior": 20085,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.58,
-      "pct_of_fund_prior": 0.59,
-      "pct_of_fund_change": -0.01,
-      "market_value_today": 2846245.35
+      "pct_of_fund_prior": 0.58,
+      "pct_of_fund_change": 0.0,
+      "market_value_today": 2768918.1
     },
     {
       "ticker": "MAC",
@@ -362,10 +362,10 @@
       "quantity_today": 260957,
       "quantity_prior": 260957,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 1.37,
+      "pct_of_fund_today": 1.35,
       "pct_of_fund_prior": 1.37,
-      "pct_of_fund_change": 0.0,
-      "market_value_today": 6651793.93
+      "pct_of_fund_change": -0.02,
+      "market_value_today": 6463904.89
     },
     {
       "ticker": "PLD",
@@ -376,10 +376,10 @@
       "quantity_today": 335242,
       "quantity_prior": 335242,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 9.88,
-      "pct_of_fund_prior": 9.78,
-      "pct_of_fund_change": 0.1,
-      "market_value_today": 48144103.62
+      "pct_of_fund_today": 9.85,
+      "pct_of_fund_prior": 9.88,
+      "pct_of_fund_change": -0.03,
+      "market_value_today": 47269122.0
     },
     {
       "ticker": "PSA",
@@ -390,10 +390,10 @@
       "quantity_today": 37876,
       "quantity_prior": 37876,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 2.56,
-      "pct_of_fund_prior": 2.55,
-      "pct_of_fund_change": 0.01,
-      "market_value_today": 12449462.44
+      "pct_of_fund_today": 2.53,
+      "pct_of_fund_prior": 2.56,
+      "pct_of_fund_change": -0.03,
+      "market_value_today": 12149484.52
     },
     {
       "ticker": "REG",
@@ -404,10 +404,10 @@
       "quantity_today": 201610,
       "quantity_prior": 201610,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 3.34,
-      "pct_of_fund_prior": 3.35,
-      "pct_of_fund_change": -0.01,
-      "market_value_today": 16277991.4
+      "pct_of_fund_today": 3.35,
+      "pct_of_fund_prior": 3.34,
+      "pct_of_fund_change": 0.01,
+      "market_value_today": 16072349.2
     },
     {
       "ticker": "SBAC",
@@ -418,24 +418,24 @@
       "quantity_today": 38862,
       "quantity_prior": 38862,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 1.46,
+      "pct_of_fund_today": 1.47,
       "pct_of_fund_prior": 1.46,
-      "pct_of_fund_change": 0.0,
-      "market_value_today": 7120684.26
+      "pct_of_fund_change": 0.01,
+      "market_value_today": 7072495.38
     },
     {
       "ticker": "SBRA",
       "name": "SABRA HEALTH CARE REIT",
       "identifier": "78573L106",
       "sector": "Real Estate",
-      "status": "unchanged",
-      "quantity_today": 425510,
+      "status": "changed",
+      "quantity_today": 367186,
       "quantity_prior": 425510,
-      "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 1.75,
+      "quantity_pct_change": -13.7068,
+      "pct_of_fund_today": 1.53,
       "pct_of_fund_prior": 1.75,
-      "pct_of_fund_change": 0.0,
-      "market_value_today": 8535730.6
+      "pct_of_fund_change": -0.22,
+      "market_value_today": 7354735.58
     },
     {
       "ticker": "SMA",
@@ -446,10 +446,10 @@
       "quantity_today": 133495,
       "quantity_prior": 133495,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.89,
-      "pct_of_fund_prior": 0.91,
-      "pct_of_fund_change": -0.02,
-      "market_value_today": 4343927.3
+      "pct_of_fund_today": 0.91,
+      "pct_of_fund_prior": 0.89,
+      "pct_of_fund_change": 0.02,
+      "market_value_today": 4345262.25
     },
     {
       "ticker": "SPG",
@@ -460,10 +460,10 @@
       "quantity_today": 86284,
       "quantity_prior": 86284,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 4.02,
-      "pct_of_fund_prior": 4.04,
-      "pct_of_fund_change": -0.02,
-      "market_value_today": 19602861.96
+      "pct_of_fund_today": 3.94,
+      "pct_of_fund_prior": 4.02,
+      "pct_of_fund_change": -0.08,
+      "market_value_today": 18903961.56
     },
     {
       "ticker": "SUI",
@@ -474,10 +474,10 @@
       "quantity_today": 37875,
       "quantity_prior": 37875,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.95,
-      "pct_of_fund_prior": 0.96,
+      "pct_of_fund_today": 0.94,
+      "pct_of_fund_prior": 0.95,
       "pct_of_fund_change": -0.01,
-      "market_value_today": 4631733.75
+      "market_value_today": 4513185.0
     },
     {
       "ticker": "UDR",
@@ -488,38 +488,38 @@
       "quantity_today": 282913,
       "quantity_prior": 282913,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 2.39,
-      "pct_of_fund_prior": 2.41,
-      "pct_of_fund_change": -0.02,
-      "market_value_today": 11667332.12
+      "pct_of_fund_today": 2.35,
+      "pct_of_fund_prior": 2.39,
+      "pct_of_fund_change": -0.04,
+      "market_value_today": 11268424.79
     },
     {
       "ticker": "VTR",
       "name": "VENTAS INC REIT USD 0.25",
       "identifier": "92276F100",
       "sector": "Real Estate",
-      "status": "unchanged",
-      "quantity_today": 339787,
+      "status": "changed",
+      "quantity_today": 324147,
       "quantity_prior": 339787,
-      "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 6.56,
-      "pct_of_fund_prior": 6.52,
-      "pct_of_fund_change": 0.04,
-      "market_value_today": 31963763.09
+      "quantity_pct_change": -4.6029,
+      "pct_of_fund_today": 6.24,
+      "pct_of_fund_prior": 6.56,
+      "pct_of_fund_change": -0.32,
+      "market_value_today": 29954424.27
     },
     {
       "ticker": "WELL",
       "name": "WELLTOWER INC",
       "identifier": "95040Q104",
       "sector": "Real Estate",
-      "status": "unchanged",
-      "quantity_today": 246229,
+      "status": "changed",
+      "quantity_today": 242126,
       "quantity_prior": 246229,
-      "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 12.01,
-      "pct_of_fund_prior": 11.93,
-      "pct_of_fund_change": 0.08,
-      "market_value_today": 58501548.11
+      "quantity_pct_change": -1.6663,
+      "pct_of_fund_today": 11.8,
+      "pct_of_fund_prior": 12.01,
+      "pct_of_fund_change": -0.21,
+      "market_value_today": 56633271.4
     },
     {
       "ticker": "WY",
@@ -530,10 +530,10 @@
       "quantity_today": 123967,
       "quantity_prior": 123967,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.59,
-      "pct_of_fund_prior": 0.6,
+      "pct_of_fund_today": 0.58,
+      "pct_of_fund_prior": 0.59,
       "pct_of_fund_change": -0.01,
-      "market_value_today": 2887191.43
+      "market_value_today": 2784298.82
     }
   ]
 }
