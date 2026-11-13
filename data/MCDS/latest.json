@@ -1,14 +1,14 @@
 {
-  "date": "2026-11-12",
+  "date": "2026-11-13",
   "ticker": "MCDS",
   "holdings": [
     {
       "name": "JPMORGAN PRIME MONEY",
       "ticker": "JIMXX",
       "identifier": "46637K844",
-      "pct_of_fund": 4.02,
-      "quantity": 328246,
-      "market_value": 328246.05,
+      "pct_of_fund": 4.07,
+      "quantity": 329794,
+      "market_value": 329794.05,
       "sector": "",
       "industry": "",
       "security_type": "MONEY MARKET"
@@ -17,9 +17,9 @@
       "name": "MARATHON PETROLEUM CORP",
       "ticker": "MPC",
       "identifier": "56585A102",
-      "pct_of_fund": 1.71,
+      "pct_of_fund": 1.77,
       "quantity": 347,
-      "market_value": 139785.48,
+      "market_value": 143258.95,
       "sector": "Energy",
       "industry": "Oil, Gas & Consumable Fuels",
       "security_type": "DOMESTIC COMMON STOCK"
@@ -28,9 +28,9 @@
       "name": "CARDINAL HEALTH INC",
       "ticker": "CAH",
       "identifier": "14149Y108",
-      "pct_of_fund": 1.33,
+      "pct_of_fund": 1.34,
       "quantity": 391,
-      "market_value": 108482.95,
+      "market_value": 108752.74,
       "sector": "Health Care",
       "industry": "Health Care Providers & Services",
       "security_type": "DOMESTIC COMMON STOCK"
@@ -39,9 +39,9 @@
       "name": "HEWLETT PACKARD",
       "ticker": "HPE",
       "identifier": "42824C109",
-      "pct_of_fund": 1.16,
+      "pct_of_fund": 1.17,
       "quantity": 1886,
-      "market_value": 94771.5,
+      "market_value": 94601.76,
       "sector": "Information Technology",
       "industry": "Computers & Peripherals",
       "security_type": "DOMESTIC COMMON STOCK"
@@ -52,7 +52,7 @@
       "identifier": "929740108",
       "pct_of_fund": 1.11,
       "quantity": 299,
-      "market_value": 90949.82,
+      "market_value": 89852.49,
       "sector": "Industrials",
       "industry": "Machinery",
       "security_type": "DOMESTIC COMMON STOCK"
@@ -61,9 +61,9 @@
       "name": "STATE STREET CORP COMMON",
       "ticker": "STT",
       "identifier": "857477103",
-      "pct_of_fund": 1.09,
+      "pct_of_fund": 1.1,
       "quantity": 511,
-      "market_value": 89000.87,
+      "market_value": 88760.7,
       "sector": "Financials",
       "industry": "Capital Markets",
       "security_type": "DOMESTIC COMMON STOCK"
@@ -72,9 +72,9 @@
       "name": "NATERA INC COMMON STOCK",
       "ticker": "NTRA",
       "identifier": "632307104",
-      "pct_of_fund": 1.0,
+      "pct_of_fund": 1.02,
       "quantity": 256,
-      "market_value": 81873.92,
+      "market_value": 82672.64,
       "sector": "Health Care",
       "industry": "Biotechnology",
       "security_type": "DOMESTIC COMMON STOCK"
@@ -83,9 +83,9 @@
       "name": "QUEST DIAGNOSTICS INC",
       "ticker": "DGX",
       "identifier": "74834L100",
-      "pct_of_fund": 1.0,
+      "pct_of_fund": 1.01,
       "quantity": 316,
-      "market_value": 81746.04,
+      "market_value": 82049.4,
       "sector": "Health Care",
       "industry": "Health Care Providers & Services",
       "security_type": "DOMESTIC COMMON STOCK"
@@ -94,9 +94,9 @@
       "name": "DOVER CORP COMMON STOCK",
       "ticker": "DOV",
       "identifier": "260003108",
-      "pct_of_fund": 0.98,
+      "pct_of_fund": 0.97,
       "quantity": 376,
-      "market_value": 79873.68,
+      "market_value": 78760.72,
       "sector": "Industrials",
       "industry": "Machinery",
       "security_type": "DOMESTIC COMMON STOCK"
@@ -107,7 +107,7 @@
       "identifier": "833445109",
       "pct_of_fund": 0.96,
       "quantity": 260,
-      "market_value": 78317.2,
+      "market_value": 77662.0,
       "sector": "Information Technology",
       "industry": "IT Services",
       "security_type": "DOMESTIC COMMON STOCK"
@@ -118,7 +118,7 @@
       "identifier": "55261F104",
       "pct_of_fund": 0.94,
       "quantity": 348,
-      "market_value": 76626.12,
+      "market_value": 76483.44,
       "sector": "Financials",
       "industry": "Commercial Banks",
       "security_type": "DOMESTIC COMMON STOCK"
@@ -127,11 +127,33 @@
       "name": "ARCH CAPITAL GROUP LTD",
       "ticker": "ACGL",
       "identifier": "G0450A105",
-      "pct_of_fund": 0.92,
+      "pct_of_fund": 0.93,
       "quantity": 686,
-      "market_value": 74890.62,
+      "market_value": 74938.64,
       "sector": "Financials",
       "industry": "Insurance",
+      "security_type": "DOMESTIC COMMON STOCK"
+    },
+    {
+      "name": "CHENIERE ENERGY INC",
+      "ticker": "LNG",
+      "identifier": "16411R208",
+      "pct_of_fund": 0.92,
+      "quantity": 241,
+      "market_value": 74584.68,
+      "sector": "Energy",
+      "industry": "Oil, Gas & Consumable Fuels",
+      "security_type": "DOMESTIC COMMON STOCK"
+    },
+    {
+      "name": "RAYMOND JAMES FINANCIAL",
+      "ticker": "RJF",
+      "identifier": "754730109",
+      "pct_of_fund": 0.92,
+      "quantity": 443,
+      "market_value": 74109.47,
+      "sector": "Financials",
+      "industry": "Capital Markets",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
@@ -140,20 +162,20 @@
       "identifier": "28176E108",
       "pct_of_fund": 0.91,
       "quantity": 700,
-      "market_value": 74067.0,
+      "market_value": 74060.0,
       "sector": "Health Care",
       "industry": "Health Care Equipment & Supplies",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
-      "name": "RAYMOND JAMES FINANCIAL",
-      "ticker": "RJF",
-      "identifier": "754730109",
+      "name": "XCEL ENERGY INC COMMON",
+      "ticker": "XEL",
+      "identifier": "98389B100",
       "pct_of_fund": 0.91,
-      "quantity": 443,
-      "market_value": 74038.59,
-      "sector": "Financials",
-      "industry": "Capital Markets",
+      "quantity": 902,
+      "market_value": 73513.0,
+      "sector": "Utilities",
+      "industry": "Electric Utilities",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
@@ -162,31 +184,20 @@
       "identifier": "29364G103",
       "pct_of_fund": 0.9,
       "quantity": 656,
-      "market_value": 73465.44,
+      "market_value": 72993.12,
       "sector": "Utilities",
       "industry": "Electric Utilities",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
-      "name": "CHENIERE ENERGY INC",
-      "ticker": "LNG",
-      "identifier": "16411R208",
-      "pct_of_fund": 0.9,
-      "quantity": 241,
-      "market_value": 73386.91,
-      "sector": "Energy",
-      "industry": "Oil, Gas & Consumable Fuels",
-      "security_type": "DOMESTIC COMMON STOCK"
-    },
-    {
-      "name": "XCEL ENERGY INC COMMON",
-      "ticker": "XEL",
-      "identifier": "98389B100",
-      "pct_of_fund": 0.9,
-      "quantity": 902,
-      "market_value": 73152.2,
-      "sector": "Utilities",
-      "industry": "Electric Utilities",
+      "name": "LOEWS CORP COMMON STOCK",
+      "ticker": "L",
+      "identifier": "540424108",
+      "pct_of_fund": 0.89,
+      "quantity": 648,
+      "market_value": 72465.84,
+      "sector": "Financials",
+      "industry": "Insurance",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
@@ -195,29 +206,29 @@
       "identifier": "71377A103",
       "pct_of_fund": 0.89,
       "quantity": 655,
-      "market_value": 72842.55,
+      "market_value": 72023.8,
       "sector": "Consumer Staples",
       "industry": "Consumer Staples Distribution & Retail",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
-      "name": "LOEWS CORP COMMON STOCK",
-      "ticker": "L",
-      "identifier": "540424108",
+      "name": "AMETEK INC COMMON STOCK",
+      "ticker": "AME",
+      "identifier": "031100100",
       "pct_of_fund": 0.88,
-      "quantity": 648,
-      "market_value": 72258.48,
-      "sector": "Financials",
-      "industry": "Insurance",
+      "quantity": 295,
+      "market_value": 71106.8,
+      "sector": "Industrials",
+      "industry": "Electrical Equipment",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
       "name": "HARTFORD INSURANCE GROUP",
       "ticker": "HIG",
       "identifier": "416515104",
-      "pct_of_fund": 0.87,
+      "pct_of_fund": 0.88,
       "quantity": 519,
-      "market_value": 71196.42,
+      "market_value": 71051.1,
       "sector": "Financials",
       "industry": "Insurance",
       "security_type": "DOMESTIC COMMON STOCK"
@@ -228,31 +239,9 @@
       "identifier": "444859102",
       "pct_of_fund": 0.87,
       "quantity": 159,
-      "market_value": 70963.29,
+      "market_value": 70545.12,
       "sector": "Health Care",
       "industry": "Health Care Providers & Services",
-      "security_type": "DOMESTIC COMMON STOCK"
-    },
-    {
-      "name": "AMETEK INC COMMON STOCK",
-      "ticker": "AME",
-      "identifier": "031100100",
-      "pct_of_fund": 0.87,
-      "quantity": 295,
-      "market_value": 70708.55,
-      "sector": "Industrials",
-      "industry": "Electrical Equipment",
-      "security_type": "DOMESTIC COMMON STOCK"
-    },
-    {
-      "name": "DELTA AIR LINES INC",
-      "ticker": "DAL",
-      "identifier": "247361702",
-      "pct_of_fund": 0.86,
-      "quantity": 770,
-      "market_value": 70316.4,
-      "sector": "Industrials",
-      "industry": "Passenger Airlines",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
@@ -261,9 +250,31 @@
       "identifier": "125896100",
       "pct_of_fund": 0.86,
       "quantity": 1007,
-      "market_value": 70107.34,
+      "market_value": 69704.54,
       "sector": "Utilities",
       "industry": "Multi-Utilities",
+      "security_type": "DOMESTIC COMMON STOCK"
+    },
+    {
+      "name": "TD SYNNEX CORP COMMON",
+      "ticker": "SNX",
+      "identifier": "87162W100",
+      "pct_of_fund": 0.83,
+      "quantity": 277,
+      "market_value": 67175.27,
+      "sector": "Information Technology",
+      "industry": "Electronic Equipment, Instruments & Components",
+      "security_type": "DOMESTIC COMMON STOCK"
+    },
+    {
+      "name": "DELTA AIR LINES INC",
+      "ticker": "DAL",
+      "identifier": "247361702",
+      "pct_of_fund": 0.82,
+      "quantity": 770,
+      "market_value": 66643.5,
+      "sector": "Industrials",
+      "industry": "Passenger Airlines",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
@@ -272,31 +283,9 @@
       "identifier": "911363109",
       "pct_of_fund": 0.82,
       "quantity": 58,
-      "market_value": 66746.4,
+      "market_value": 66070.12,
       "sector": "Industrials",
       "industry": "Trading Companies & Distributors",
-      "security_type": "DOMESTIC COMMON STOCK"
-    },
-    {
-      "name": "TD SYNNEX CORP COMMON",
-      "ticker": "SNX",
-      "identifier": "87162W100",
-      "pct_of_fund": 0.82,
-      "quantity": 277,
-      "market_value": 66718.22,
-      "sector": "Information Technology",
-      "industry": "Electronic Equipment, Instruments & Components",
-      "security_type": "DOMESTIC COMMON STOCK"
-    },
-    {
-      "name": "GARMIN LTD COMMON STOCK",
-      "ticker": "GRMN",
-      "identifier": "H2906T109",
-      "pct_of_fund": 0.81,
-      "quantity": 226,
-      "market_value": 66428.18,
-      "sector": "Consumer Discretionary",
-      "industry": "Household Durables",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
@@ -305,7 +294,7 @@
       "identifier": "237194105",
       "pct_of_fund": 0.8,
       "quantity": 286,
-      "market_value": 65476.84,
+      "market_value": 65179.4,
       "sector": "Consumer Discretionary",
       "industry": "Hotels, Restaurants & Leisure",
       "security_type": "DOMESTIC COMMON STOCK"
@@ -314,11 +303,22 @@
       "name": "AMEREN CORP COMMON STOCK",
       "ticker": "AEE",
       "identifier": "023608102",
-      "pct_of_fund": 0.79,
+      "pct_of_fund": 0.8,
       "quantity": 572,
-      "market_value": 64796.16,
+      "market_value": 64933.44,
       "sector": "Utilities",
       "industry": "Multi-Utilities",
+      "security_type": "DOMESTIC COMMON STOCK"
+    },
+    {
+      "name": "GARMIN LTD COMMON STOCK",
+      "ticker": "GRMN",
+      "identifier": "H2906T109",
+      "pct_of_fund": 0.8,
+      "quantity": 226,
+      "market_value": 64676.68,
+      "sector": "Consumer Discretionary",
+      "industry": "Household Durables",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
@@ -327,7 +327,7 @@
       "identifier": "46266C105",
       "pct_of_fund": 0.78,
       "quantity": 232,
-      "market_value": 63690.96,
+      "market_value": 62897.52,
       "sector": "Health Care",
       "industry": "Life Sciences Tools & Services",
       "security_type": "DOMESTIC COMMON STOCK"
@@ -338,7 +338,7 @@
       "identifier": "92276F100",
       "pct_of_fund": 0.76,
       "quantity": 687,
-      "market_value": 62118.54,
+      "market_value": 61589.55,
       "sector": "Real Estate",
       "industry": "Health Care REITs",
       "security_type": "REIT"
@@ -349,31 +349,31 @@
       "identifier": "880770102",
       "pct_of_fund": 0.75,
       "quantity": 229,
-      "market_value": 60863.62,
+      "market_value": 60398.75,
       "sector": "Information Technology",
       "industry": "Semiconductors & Semiconductor Equipment",
+      "security_type": "DOMESTIC COMMON STOCK"
+    },
+    {
+      "name": "WW GRAINGER INC COMMON",
+      "ticker": "GWW",
+      "identifier": "384802104",
+      "pct_of_fund": 0.74,
+      "quantity": 40,
+      "market_value": 60104.4,
+      "sector": "Industrials",
+      "industry": "Trading Companies & Distributors",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
       "name": "HEICO CORP COMMON STOCK",
       "ticker": "HEI.A",
       "identifier": "422806208",
-      "pct_of_fund": 0.74,
+      "pct_of_fund": 0.73,
       "quantity": 232,
-      "market_value": 60510.24,
+      "market_value": 58972.08,
       "sector": "Industrials",
       "industry": "Aerospace & Defense",
-      "security_type": "DOMESTIC COMMON STOCK"
-    },
-    {
-      "name": "JAZZ PHARMACEUTICALS PLC",
-      "ticker": "JAZZ",
-      "identifier": "G50871105",
-      "pct_of_fund": 0.74,
-      "quantity": 243,
-      "market_value": 60322.32,
-      "sector": "Health Care",
-      "industry": "Pharmaceuticals",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
@@ -382,20 +382,9 @@
       "identifier": "592688105",
       "pct_of_fund": 0.73,
       "quantity": 34,
-      "market_value": 59466.34,
+      "market_value": 58851.62,
       "sector": "Health Care",
       "industry": "Life Sciences Tools & Services",
-      "security_type": "DOMESTIC COMMON STOCK"
-    },
-    {
-      "name": "WW GRAINGER INC COMMON",
-      "ticker": "GWW",
-      "identifier": "384802104",
-      "pct_of_fund": 0.73,
-      "quantity": 40,
-      "market_value": 59461.2,
-      "sector": "Industrials",
-      "industry": "Trading Companies & Distributors",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
@@ -404,9 +393,20 @@
       "identifier": "29261A100",
       "pct_of_fund": 0.72,
       "quantity": 415,
-      "market_value": 59029.6,
+      "market_value": 58444.45,
       "sector": "Health Care",
       "industry": "Health Care Providers & Services",
+      "security_type": "DOMESTIC COMMON STOCK"
+    },
+    {
+      "name": "JAZZ PHARMACEUTICALS PLC",
+      "ticker": "JAZZ",
+      "identifier": "G50871105",
+      "pct_of_fund": 0.72,
+      "quantity": 243,
+      "market_value": 58409.91,
+      "sector": "Health Care",
+      "industry": "Pharmaceuticals",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
@@ -415,20 +415,9 @@
       "identifier": "92939U106",
       "pct_of_fund": 0.72,
       "quantity": 500,
-      "market_value": 58735.0,
+      "market_value": 58263.75,
       "sector": "Utilities",
       "industry": "Multi-Utilities",
-      "security_type": "DOMESTIC COMMON STOCK"
-    },
-    {
-      "name": "RALPH LAUREN CORP COMMON",
-      "ticker": "RL",
-      "identifier": "751212101",
-      "pct_of_fund": 0.71,
-      "quantity": 147,
-      "market_value": 57925.35,
-      "sector": "Consumer Discretionary",
-      "industry": "Textiles, Apparel & Luxury Goods",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
@@ -437,7 +426,7 @@
       "identifier": "05550J101",
       "pct_of_fund": 0.71,
       "quantity": 521,
-      "market_value": 57679.91,
+      "market_value": 57768.48,
       "sector": "Consumer Staples",
       "industry": "Consumer Staples Distribution & Retail",
       "security_type": "DOMESTIC COMMON STOCK"
@@ -454,14 +443,36 @@
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
+      "name": "RALPH LAUREN CORP COMMON",
+      "ticker": "RL",
+      "identifier": "751212101",
+      "pct_of_fund": 0.71,
+      "quantity": 147,
+      "market_value": 57447.6,
+      "sector": "Consumer Discretionary",
+      "industry": "Textiles, Apparel & Luxury Goods",
+      "security_type": "DOMESTIC COMMON STOCK"
+    },
+    {
       "name": "HILTON WORLDWIDE HOLDINGS",
       "ticker": "HLT",
       "identifier": "43300A203",
       "pct_of_fund": 0.7,
       "quantity": 152,
-      "market_value": 57290.32,
+      "market_value": 56654.96,
       "sector": "Consumer Discretionary",
       "industry": "Hotels, Restaurants & Leisure",
+      "security_type": "DOMESTIC COMMON STOCK"
+    },
+    {
+      "name": "NISOURCE INC COMMON STOCK",
+      "ticker": "NI",
+      "identifier": "65473P105",
+      "pct_of_fund": 0.7,
+      "quantity": 1235,
+      "market_value": 56575.35,
+      "sector": "Utilities",
+      "industry": "Multi-Utilities",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
@@ -470,32 +481,10 @@
       "identifier": "44107P104",
       "pct_of_fund": 0.7,
       "quantity": 2215,
-      "market_value": 57102.7,
+      "market_value": 56526.8,
       "sector": "Real Estate",
       "industry": "Hotel & Resort REITs",
       "security_type": "REIT"
-    },
-    {
-      "name": "KEURIG DR PEPPER INC",
-      "ticker": "KDP",
-      "identifier": "49271V100",
-      "pct_of_fund": 0.7,
-      "quantity": 1487,
-      "market_value": 56877.75,
-      "sector": "Consumer Staples",
-      "industry": "Beverages",
-      "security_type": "DOMESTIC COMMON STOCK"
-    },
-    {
-      "name": "ROYAL CARIBBEAN CRUISES",
-      "ticker": "RCL",
-      "identifier": "V7780T103",
-      "pct_of_fund": 0.69,
-      "quantity": 169,
-      "market_value": 56645.42,
-      "sector": "Consumer Discretionary",
-      "industry": "Hotels, Restaurants & Leisure",
-      "security_type": "DOMESTIC COMMON STOCK"
     },
     {
       "name": "TECHNIPFMC PLC COMMON",
@@ -503,20 +492,9 @@
       "identifier": "G87110105",
       "pct_of_fund": 0.69,
       "quantity": 865,
-      "market_value": 56562.35,
+      "market_value": 56155.8,
       "sector": "Energy",
       "industry": "Energy Equipment & Services",
-      "security_type": "DOMESTIC COMMON STOCK"
-    },
-    {
-      "name": "NISOURCE INC COMMON STOCK",
-      "ticker": "NI",
-      "identifier": "65473P105",
-      "pct_of_fund": 0.69,
-      "quantity": 1235,
-      "market_value": 56254.25,
-      "sector": "Utilities",
-      "industry": "Multi-Utilities",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
@@ -525,42 +503,20 @@
       "identifier": "758849103",
       "pct_of_fund": 0.68,
       "quantity": 726,
-      "market_value": 55306.68,
+      "market_value": 54987.24,
       "sector": "Real Estate",
       "industry": "Retail REITs",
       "security_type": "REIT"
     },
     {
-      "name": "US FOODS HOLDING CORP",
-      "ticker": "USFD",
-      "identifier": "912008109",
+      "name": "ROYAL CARIBBEAN CRUISES",
+      "ticker": "RCL",
+      "identifier": "V7780T103",
       "pct_of_fund": 0.67,
-      "quantity": 501,
-      "market_value": 54984.75,
-      "sector": "Consumer Staples",
-      "industry": "Consumer Staples Distribution & Retail",
-      "security_type": "DOMESTIC COMMON STOCK"
-    },
-    {
-      "name": "CHIPOTLE MEXICAN GRILL",
-      "ticker": "CMG",
-      "identifier": "169656105",
-      "pct_of_fund": 0.67,
-      "quantity": 1499,
-      "market_value": 54923.36,
+      "quantity": 169,
+      "market_value": 54416.31,
       "sector": "Consumer Discretionary",
       "industry": "Hotels, Restaurants & Leisure",
-      "security_type": "DOMESTIC COMMON STOCK"
-    },
-    {
-      "name": "CBRE GROUP INC COMMON",
-      "ticker": "CBRE",
-      "identifier": "12504L109",
-      "pct_of_fund": 0.67,
-      "quantity": 408,
-      "market_value": 54908.64,
-      "sector": "Real Estate",
-      "industry": "Real Estate Management & Development",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
@@ -569,9 +525,20 @@
       "identifier": "988498101",
       "pct_of_fund": 0.67,
       "quantity": 341,
-      "market_value": 54631.61,
+      "market_value": 54334.94,
       "sector": "Consumer Discretionary",
       "industry": "Hotels, Restaurants & Leisure",
+      "security_type": "DOMESTIC COMMON STOCK"
+    },
+    {
+      "name": "US FOODS HOLDING CORP",
+      "ticker": "USFD",
+      "identifier": "912008109",
+      "pct_of_fund": 0.67,
+      "quantity": 501,
+      "market_value": 54233.25,
+      "sector": "Consumer Staples",
+      "industry": "Consumer Staples Distribution & Retail",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
@@ -580,7 +547,29 @@
       "identifier": "320517105",
       "pct_of_fund": 0.67,
       "quantity": 2316,
-      "market_value": 54495.48,
+      "market_value": 54217.56,
+      "sector": "Financials",
+      "industry": "Commercial Banks",
+      "security_type": "DOMESTIC COMMON STOCK"
+    },
+    {
+      "name": "CBRE GROUP INC COMMON",
+      "ticker": "CBRE",
+      "identifier": "12504L109",
+      "pct_of_fund": 0.67,
+      "quantity": 408,
+      "market_value": 54076.32,
+      "sector": "Real Estate",
+      "industry": "Real Estate Management & Development",
+      "security_type": "DOMESTIC COMMON STOCK"
+    },
+    {
+      "name": "REGIONS FINANCIAL CORP",
+      "ticker": "RF",
+      "identifier": "7591EP100",
+      "pct_of_fund": 0.67,
+      "quantity": 1893,
+      "market_value": 53969.43,
       "sector": "Financials",
       "industry": "Commercial Banks",
       "security_type": "DOMESTIC COMMON STOCK"
@@ -591,31 +580,9 @@
       "identifier": "695156109",
       "pct_of_fund": 0.67,
       "quantity": 215,
-      "market_value": 54397.15,
+      "market_value": 53874.7,
       "sector": "Materials",
       "industry": "Containers & Packaging",
-      "security_type": "DOMESTIC COMMON STOCK"
-    },
-    {
-      "name": "MSCI INC COMMON STOCK USD",
-      "ticker": "MSCI",
-      "identifier": "55354G100",
-      "pct_of_fund": 0.66,
-      "quantity": 82,
-      "market_value": 54245.46,
-      "sector": "Financials",
-      "industry": "Capital Markets",
-      "security_type": "DOMESTIC COMMON STOCK"
-    },
-    {
-      "name": "REGIONS FINANCIAL CORP",
-      "ticker": "RF",
-      "identifier": "7591EP100",
-      "pct_of_fund": 0.66,
-      "quantity": 1893,
-      "market_value": 54215.52,
-      "sector": "Financials",
-      "industry": "Commercial Banks",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
@@ -624,7 +591,7 @@
       "identifier": "879360105",
       "pct_of_fund": 0.66,
       "quantity": 83,
-      "market_value": 54042.96,
+      "market_value": 53748.31,
       "sector": "Information Technology",
       "industry": "Electronic Equipment, Instruments & Components",
       "security_type": "DOMESTIC COMMON STOCK"
@@ -635,9 +602,53 @@
       "identifier": "29362U104",
       "pct_of_fund": 0.66,
       "quantity": 350,
-      "market_value": 53977.0,
+      "market_value": 53623.5,
       "sector": "Information Technology",
       "industry": "Semiconductors & Semiconductor Equipment",
+      "security_type": "DOMESTIC COMMON STOCK"
+    },
+    {
+      "name": "MSCI INC COMMON STOCK USD",
+      "ticker": "MSCI",
+      "identifier": "55354G100",
+      "pct_of_fund": 0.66,
+      "quantity": 82,
+      "market_value": 53255.72,
+      "sector": "Financials",
+      "industry": "Capital Markets",
+      "security_type": "DOMESTIC COMMON STOCK"
+    },
+    {
+      "name": "CHIPOTLE MEXICAN GRILL",
+      "ticker": "CMG",
+      "identifier": "169656105",
+      "pct_of_fund": 0.65,
+      "quantity": 1499,
+      "market_value": 52719.83,
+      "sector": "Consumer Discretionary",
+      "industry": "Hotels, Restaurants & Leisure",
+      "security_type": "DOMESTIC COMMON STOCK"
+    },
+    {
+      "name": "KEURIG DR PEPPER INC",
+      "ticker": "KDP",
+      "identifier": "49271V100",
+      "pct_of_fund": 0.65,
+      "quantity": 1487,
+      "market_value": 52669.54,
+      "sector": "Consumer Staples",
+      "industry": "Beverages",
+      "security_type": "DOMESTIC COMMON STOCK"
+    },
+    {
+      "name": "DEVON ENERGY CORP COMMON",
+      "ticker": "DVN",
+      "identifier": "25179M103",
+      "pct_of_fund": 0.65,
+      "quantity": 1131,
+      "market_value": 52286.13,
+      "sector": "Energy",
+      "industry": "Oil, Gas & Consumable Fuels",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
@@ -646,20 +657,9 @@
       "identifier": "573284106",
       "pct_of_fund": 0.65,
       "quantity": 101,
-      "market_value": 52937.13,
+      "market_value": 52250.33,
       "sector": "Materials",
       "industry": "Construction Materials",
-      "security_type": "DOMESTIC COMMON STOCK"
-    },
-    {
-      "name": "TAKE-TWO INTERACTIVE",
-      "ticker": "TTWO",
-      "identifier": "874054109",
-      "pct_of_fund": 0.65,
-      "quantity": 228,
-      "market_value": 52738.68,
-      "sector": "Communication Services",
-      "industry": "Entertainment",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
@@ -668,18 +668,29 @@
       "identifier": "78467J100",
       "pct_of_fund": 0.64,
       "quantity": 655,
-      "market_value": 52033.2,
+      "market_value": 51987.35,
       "sector": "Industrials",
       "industry": "Professional Services",
+      "security_type": "DOMESTIC COMMON STOCK"
+    },
+    {
+      "name": "TAKE-TWO INTERACTIVE",
+      "ticker": "TTWO",
+      "identifier": "874054109",
+      "pct_of_fund": 0.64,
+      "quantity": 228,
+      "market_value": 51744.6,
+      "sector": "Communication Services",
+      "industry": "Entertainment",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
       "name": "NORTHERN TRUST CORP",
       "ticker": "NTRS",
       "identifier": "665859104",
-      "pct_of_fund": 0.63,
+      "pct_of_fund": 0.64,
       "quantity": 290,
-      "market_value": 51825.9,
+      "market_value": 51524.3,
       "sector": "Financials",
       "industry": "Capital Markets",
       "security_type": "DOMESTIC COMMON STOCK"
@@ -690,31 +701,9 @@
       "identifier": "92338C103",
       "pct_of_fund": 0.63,
       "quantity": 435,
-      "market_value": 51664.95,
+      "market_value": 51108.15,
       "sector": "Industrials",
       "industry": "Commercial Services & Supplies",
-      "security_type": "DOMESTIC COMMON STOCK"
-    },
-    {
-      "name": "DEVON ENERGY CORP COMMON",
-      "ticker": "DVN",
-      "identifier": "25179M103",
-      "pct_of_fund": 0.62,
-      "quantity": 1131,
-      "market_value": 50838.45,
-      "sector": "Energy",
-      "industry": "Oil, Gas & Consumable Fuels",
-      "security_type": "DOMESTIC COMMON STOCK"
-    },
-    {
-      "name": "ROSS STORES INC COMMON",
-      "ticker": "ROST",
-      "identifier": "778296103",
-      "pct_of_fund": 0.62,
-      "quantity": 209,
-      "market_value": 50425.43,
-      "sector": "Consumer Discretionary",
-      "industry": "Specialty Retail",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
@@ -723,9 +712,20 @@
       "identifier": "45167R104",
       "pct_of_fund": 0.62,
       "quantity": 210,
-      "market_value": 50391.6,
+      "market_value": 49986.3,
       "sector": "Industrials",
       "industry": "Machinery",
+      "security_type": "DOMESTIC COMMON STOCK"
+    },
+    {
+      "name": "ROSS STORES INC COMMON",
+      "ticker": "ROST",
+      "identifier": "778296103",
+      "pct_of_fund": 0.61,
+      "quantity": 209,
+      "market_value": 49583.16,
+      "sector": "Consumer Discretionary",
+      "industry": "Specialty Retail",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
@@ -734,7 +734,7 @@
       "identifier": "955306105",
       "pct_of_fund": 0.59,
       "quantity": 117,
-      "market_value": 48304.62,
+      "market_value": 48122.1,
       "sector": "Health Care",
       "industry": "Life Sciences Tools & Services",
       "security_type": "DOMESTIC COMMON STOCK"
@@ -743,44 +743,44 @@
       "name": "CUBESMART REIT USD 0.01",
       "ticker": "CUBE",
       "identifier": "229663109",
-      "pct_of_fund": 0.58,
+      "pct_of_fund": 0.59,
       "quantity": 1054,
-      "market_value": 47577.56,
+      "market_value": 47430.0,
       "sector": "Real Estate",
       "industry": "Specialized REITs",
       "security_type": "REIT"
     },
     {
-      "name": "AUTODESK INC COMMON STOCK",
-      "ticker": "ADSK",
-      "identifier": "052769106",
-      "pct_of_fund": 0.57,
-      "quantity": 180,
-      "market_value": 46801.8,
-      "sector": "Information Technology",
-      "industry": "Software",
-      "security_type": "DOMESTIC COMMON STOCK"
-    },
-    {
       "name": "ON SEMICONDUCTOR CORP",
       "ticker": "ON",
       "identifier": "682189105",
-      "pct_of_fund": 0.57,
+      "pct_of_fund": 0.58,
       "quantity": 635,
-      "market_value": 46748.7,
+      "market_value": 46818.55,
       "sector": "Information Technology",
       "industry": "Semiconductors & Semiconductor Equipment",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
-      "name": "BAKER HUGHES CO COMMON",
-      "ticker": "BKR",
-      "identifier": "05722G100",
+      "name": "AUTODESK INC COMMON STOCK",
+      "ticker": "ADSK",
+      "identifier": "052769106",
+      "pct_of_fund": 0.58,
+      "quantity": 180,
+      "market_value": 46706.4,
+      "sector": "Information Technology",
+      "industry": "Software",
+      "security_type": "DOMESTIC COMMON STOCK"
+    },
+    {
+      "name": "DIAMONDBACK ENERGY INC",
+      "ticker": "FANG",
+      "identifier": "25278X109",
       "pct_of_fund": 0.54,
-      "quantity": 899,
-      "market_value": 44419.59,
+      "quantity": 242,
+      "market_value": 44092.4,
       "sector": "Energy",
-      "industry": "Energy Equipment & Services",
+      "industry": "Oil, Gas & Consumable Fuels",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
@@ -789,9 +789,20 @@
       "identifier": "030420103",
       "pct_of_fund": 0.54,
       "quantity": 298,
-      "market_value": 44331.97,
+      "market_value": 43978.84,
       "sector": "Utilities",
       "industry": "Water Utilities",
+      "security_type": "DOMESTIC COMMON STOCK"
+    },
+    {
+      "name": "BAKER HUGHES CO COMMON",
+      "ticker": "BKR",
+      "identifier": "05722G100",
+      "pct_of_fund": 0.54,
+      "quantity": 899,
+      "market_value": 43925.14,
+      "sector": "Energy",
+      "industry": "Energy Equipment & Services",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
@@ -800,42 +811,20 @@
       "identifier": "29476L107",
       "pct_of_fund": 0.54,
       "quantity": 684,
-      "market_value": 44206.92,
+      "market_value": 43728.12,
       "sector": "Real Estate",
       "industry": "Residential REITs",
       "security_type": "REIT"
     },
     {
-      "name": "DIAMONDBACK ENERGY INC",
-      "ticker": "FANG",
-      "identifier": "25278X109",
+      "name": "WILLIAMS COS INC/THE",
+      "ticker": "WMB",
+      "identifier": "969457100",
       "pct_of_fund": 0.53,
-      "quantity": 242,
-      "market_value": 43511.6,
+      "quantity": 623,
+      "market_value": 43261.12,
       "sector": "Energy",
       "industry": "Oil, Gas & Consumable Fuels",
-      "security_type": "DOMESTIC COMMON STOCK"
-    },
-    {
-      "name": "CORPAY INC",
-      "ticker": "CPAY",
-      "identifier": "219948106",
-      "pct_of_fund": 0.53,
-      "quantity": 94,
-      "market_value": 43423.3,
-      "sector": "Financials",
-      "industry": "Financial Services",
-      "security_type": "DOMESTIC COMMON STOCK"
-    },
-    {
-      "name": "AXALTA COATING SYSTEMS",
-      "ticker": "AXTA",
-      "identifier": "G0750C108",
-      "pct_of_fund": 0.53,
-      "quantity": 1167,
-      "market_value": 43260.69,
-      "sector": "Materials",
-      "industry": "Chemicals",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
@@ -844,10 +833,21 @@
       "identifier": "277276101",
       "pct_of_fund": 0.53,
       "quantity": 218,
-      "market_value": 43150.92,
+      "market_value": 43174.9,
       "sector": "Real Estate",
       "industry": "Industrial REITs",
       "security_type": "REIT"
+    },
+    {
+      "name": "CORPAY INC",
+      "ticker": "CPAY",
+      "identifier": "219948106",
+      "pct_of_fund": 0.53,
+      "quantity": 94,
+      "market_value": 42864.94,
+      "sector": "Financials",
+      "industry": "Financial Services",
+      "security_type": "DOMESTIC COMMON STOCK"
     },
     {
       "name": "GE HEALTHCARE",
@@ -855,31 +855,20 @@
       "identifier": "36266G107",
       "pct_of_fund": 0.53,
       "quantity": 521,
-      "market_value": 43034.6,
+      "market_value": 42638.64,
       "sector": "Health Care",
       "industry": "Health Care Equipment & Supplies",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
-      "name": "COMFORT SYSTEMS USA INC",
-      "ticker": "FIX",
-      "identifier": "199908104",
-      "pct_of_fund": 0.53,
-      "quantity": 37,
-      "market_value": 42943.31,
-      "sector": "Industrials",
-      "industry": "Construction & Engineering",
-      "security_type": "DOMESTIC COMMON STOCK"
-    },
-    {
-      "name": "WILLIAMS COS INC/THE",
-      "ticker": "WMB",
-      "identifier": "969457100",
-      "pct_of_fund": 0.53,
-      "quantity": 623,
-      "market_value": 42937.16,
-      "sector": "Energy",
-      "industry": "Oil, Gas & Consumable Fuels",
+      "name": "AXALTA COATING SYSTEMS",
+      "ticker": "AXTA",
+      "identifier": "G0750C108",
+      "pct_of_fund": 0.52,
+      "quantity": 1167,
+      "market_value": 42490.47,
+      "sector": "Materials",
+      "industry": "Chemicals",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
@@ -888,29 +877,29 @@
       "identifier": "78410G104",
       "pct_of_fund": 0.52,
       "quantity": 226,
-      "market_value": 42664.28,
+      "market_value": 42164.82,
       "sector": "Real Estate",
       "industry": "Specialized REITs",
       "security_type": "REIT"
     },
     {
-      "name": "TOLL BROTHERS INC COMMON",
-      "ticker": "TOL",
-      "identifier": "889478103",
+      "name": "COMFORT SYSTEMS USA INC",
+      "ticker": "FIX",
+      "identifier": "199908104",
       "pct_of_fund": 0.52,
-      "quantity": 280,
-      "market_value": 42280.0,
-      "sector": "Consumer Discretionary",
-      "industry": "Household Durables",
+      "quantity": 37,
+      "market_value": 41739.33,
+      "sector": "Industrials",
+      "industry": "Construction & Engineering",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
       "name": "FIRST CITIZENS BANCSHARES",
       "ticker": "FCNCA",
       "identifier": "31946M103",
-      "pct_of_fund": 0.51,
+      "pct_of_fund": 0.52,
       "quantity": 18,
-      "market_value": 41680.98,
+      "market_value": 41721.48,
       "sector": "Financials",
       "industry": "Commercial Banks",
       "security_type": "DOMESTIC COMMON STOCK"
@@ -921,29 +910,29 @@
       "identifier": "443201108",
       "pct_of_fund": 0.51,
       "quantity": 186,
-      "market_value": 41664.0,
+      "market_value": 41498.46,
       "sector": "Industrials",
       "industry": "Aerospace & Defense",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
-      "name": "ZEBRA TECHNOLOGIES CORP",
-      "ticker": "ZBRA",
-      "identifier": "989207105",
-      "pct_of_fund": 0.5,
-      "quantity": 125,
-      "market_value": 40930.0,
-      "sector": "Information Technology",
-      "industry": "Electronic Equipment, Instruments & Components",
+      "name": "TOLL BROTHERS INC COMMON",
+      "ticker": "TOL",
+      "identifier": "889478103",
+      "pct_of_fund": 0.51,
+      "quantity": 280,
+      "market_value": 41437.2,
+      "sector": "Consumer Discretionary",
+      "industry": "Household Durables",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
       "name": "COGNIZANT TECHNOLOGY",
       "ticker": "CTSH",
       "identifier": "192446102",
-      "pct_of_fund": 0.5,
+      "pct_of_fund": 0.49,
       "quantity": 631,
-      "market_value": 40655.33,
+      "market_value": 40018.02,
       "sector": "Information Technology",
       "industry": "IT Services",
       "security_type": "DOMESTIC COMMON STOCK"
@@ -952,11 +941,33 @@
       "name": "BURLINGTON STORES INC",
       "ticker": "BURL",
       "identifier": "122017106",
-      "pct_of_fund": 0.5,
+      "pct_of_fund": 0.49,
       "quantity": 158,
-      "market_value": 40493.82,
+      "market_value": 39795.46,
       "sector": "Consumer Discretionary",
       "industry": "Specialty Retail",
+      "security_type": "DOMESTIC COMMON STOCK"
+    },
+    {
+      "name": "ZEBRA TECHNOLOGIES CORP",
+      "ticker": "ZBRA",
+      "identifier": "989207105",
+      "pct_of_fund": 0.49,
+      "quantity": 125,
+      "market_value": 39728.75,
+      "sector": "Information Technology",
+      "industry": "Electronic Equipment, Instruments & Components",
+      "security_type": "DOMESTIC COMMON STOCK"
+    },
+    {
+      "name": "VISTRA CORP COMMON STOCK",
+      "ticker": "VST",
+      "identifier": "92840M102",
+      "pct_of_fund": 0.49,
+      "quantity": 295,
+      "market_value": 39680.45,
+      "sector": "Utilities",
+      "industry": "Independent Power Producers & Energy Traders",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
@@ -965,31 +976,9 @@
       "identifier": "14040H105",
       "pct_of_fund": 0.49,
       "quantity": 203,
-      "market_value": 40013.33,
+      "market_value": 39300.8,
       "sector": "Financials",
       "industry": "Consumer Finance",
-      "security_type": "DOMESTIC COMMON STOCK"
-    },
-    {
-      "name": "TWILIO INC COMMON STOCK",
-      "ticker": "TWLO",
-      "identifier": "90138F102",
-      "pct_of_fund": 0.49,
-      "quantity": 182,
-      "market_value": 39945.36,
-      "sector": "Information Technology",
-      "industry": "IT Services",
-      "security_type": "DOMESTIC COMMON STOCK"
-    },
-    {
-      "name": "VISTRA CORP COMMON STOCK",
-      "ticker": "VST",
-      "identifier": "92840M102",
-      "pct_of_fund": 0.48,
-      "quantity": 295,
-      "market_value": 39367.75,
-      "sector": "Utilities",
-      "industry": "Independent Power Producers & Energy Traders",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
@@ -998,20 +987,20 @@
       "identifier": "058498106",
       "pct_of_fund": 0.48,
       "quantity": 598,
-      "market_value": 39354.38,
+      "market_value": 38816.18,
       "sector": "Materials",
       "industry": "Containers & Packaging",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
-      "name": "OMNICOM GROUP INC COMMON",
-      "ticker": "OMC",
-      "identifier": "681919106",
+      "name": "TWILIO INC COMMON STOCK",
+      "ticker": "TWLO",
+      "identifier": "90138F102",
       "pct_of_fund": 0.48,
-      "quantity": 437,
-      "market_value": 38840.56,
-      "sector": "Communication Services",
-      "industry": "Media",
+      "quantity": 182,
+      "market_value": 38622.22,
+      "sector": "Information Technology",
+      "industry": "IT Services",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
@@ -1020,9 +1009,20 @@
       "identifier": "502431109",
       "pct_of_fund": 0.47,
       "quantity": 140,
-      "market_value": 38722.6,
+      "market_value": 38057.6,
       "sector": "Industrials",
       "industry": "Aerospace & Defense",
+      "security_type": "DOMESTIC COMMON STOCK"
+    },
+    {
+      "name": "OMNICOM GROUP INC COMMON",
+      "ticker": "OMC",
+      "identifier": "681919106",
+      "pct_of_fund": 0.47,
+      "quantity": 437,
+      "market_value": 37949.08,
+      "sector": "Communication Services",
+      "industry": "Media",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
@@ -1031,20 +1031,9 @@
       "identifier": "922475108",
       "pct_of_fund": 0.47,
       "quantity": 125,
-      "market_value": 38096.25,
+      "market_value": 37802.5,
       "sector": "Health Care",
       "industry": "Health Care Technology",
-      "security_type": "DOMESTIC COMMON STOCK"
-    },
-    {
-      "name": "FORD MOTOR CO COMMON",
-      "ticker": "F",
-      "identifier": "345370860",
-      "pct_of_fund": 0.46,
-      "quantity": 3083,
-      "market_value": 37766.75,
-      "sector": "Consumer Discretionary",
-      "industry": "Automobiles",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
@@ -1053,7 +1042,7 @@
       "identifier": "74762E102",
       "pct_of_fund": 0.46,
       "quantity": 62,
-      "market_value": 37692.28,
+      "market_value": 37581.92,
       "sector": "Industrials",
       "industry": "Construction & Engineering",
       "security_type": "DOMESTIC COMMON STOCK"
@@ -1064,9 +1053,20 @@
       "identifier": "858119100",
       "pct_of_fund": 0.46,
       "quantity": 156,
-      "market_value": 37282.44,
+      "market_value": 36989.16,
       "sector": "Materials",
       "industry": "Metals & Mining",
+      "security_type": "DOMESTIC COMMON STOCK"
+    },
+    {
+      "name": "FORD MOTOR CO COMMON",
+      "ticker": "F",
+      "identifier": "345370860",
+      "pct_of_fund": 0.45,
+      "quantity": 3083,
+      "market_value": 36687.7,
+      "sector": "Consumer Discretionary",
+      "industry": "Automobiles",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
@@ -1075,31 +1075,9 @@
       "identifier": "30212P303",
       "pct_of_fund": 0.45,
       "quantity": 140,
-      "market_value": 36370.6,
+      "market_value": 36547.0,
       "sector": "Consumer Discretionary",
       "industry": "Hotels, Restaurants & Leisure",
-      "security_type": "DOMESTIC COMMON STOCK"
-    },
-    {
-      "name": "HERSHEY CO/THE COMMON",
-      "ticker": "HSY",
-      "identifier": "427866108",
-      "pct_of_fund": 0.44,
-      "quantity": 205,
-      "market_value": 36168.15,
-      "sector": "Consumer Staples",
-      "industry": "Food Products",
-      "security_type": "DOMESTIC COMMON STOCK"
-    },
-    {
-      "name": "ACUITY INC COMMON STOCK",
-      "ticker": "AYI",
-      "identifier": "00508Y102",
-      "pct_of_fund": 0.44,
-      "quantity": 108,
-      "market_value": 36045.0,
-      "sector": "Industrials",
-      "industry": "Electrical Equipment",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
@@ -1108,20 +1086,9 @@
       "identifier": "23804L103",
       "pct_of_fund": 0.44,
       "quantity": 194,
-      "market_value": 35769.72,
+      "market_value": 35785.24,
       "sector": "Information Technology",
       "industry": "Software",
-      "security_type": "DOMESTIC COMMON STOCK"
-    },
-    {
-      "name": "ELEMENT SOLUTIONS INC",
-      "ticker": "ESI",
-      "identifier": "28618M106",
-      "pct_of_fund": 0.44,
-      "quantity": 1048,
-      "market_value": 35684.4,
-      "sector": "Materials",
-      "industry": "Chemicals",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
@@ -1130,9 +1097,31 @@
       "identifier": "23345M107",
       "pct_of_fund": 0.44,
       "quantity": 299,
-      "market_value": 35581.0,
+      "market_value": 35763.39,
       "sector": "Energy",
       "industry": "Oil, Gas & Consumable Fuels",
+      "security_type": "DOMESTIC COMMON STOCK"
+    },
+    {
+      "name": "ACUITY INC COMMON STOCK",
+      "ticker": "AYI",
+      "identifier": "00508Y102",
+      "pct_of_fund": 0.44,
+      "quantity": 108,
+      "market_value": 35670.24,
+      "sector": "Industrials",
+      "industry": "Electrical Equipment",
+      "security_type": "DOMESTIC COMMON STOCK"
+    },
+    {
+      "name": "HERSHEY CO/THE COMMON",
+      "ticker": "HSY",
+      "identifier": "427866108",
+      "pct_of_fund": 0.44,
+      "quantity": 205,
+      "market_value": 35524.45,
+      "sector": "Consumer Staples",
+      "industry": "Food Products",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
@@ -1141,7 +1130,7 @@
       "identifier": "562750109",
       "pct_of_fund": 0.43,
       "quantity": 137,
-      "market_value": 35463.82,
+      "market_value": 35122.69,
       "sector": "Information Technology",
       "industry": "Software",
       "security_type": "DOMESTIC COMMON STOCK"
@@ -1152,9 +1141,20 @@
       "identifier": "142339100",
       "pct_of_fund": 0.43,
       "quantity": 89,
-      "market_value": 35388.18,
+      "market_value": 34940.51,
       "sector": "Industrials",
       "industry": "Building Products",
+      "security_type": "DOMESTIC COMMON STOCK"
+    },
+    {
+      "name": "ELEMENT SOLUTIONS INC",
+      "ticker": "ESI",
+      "identifier": "28618M106",
+      "pct_of_fund": 0.43,
+      "quantity": 1048,
+      "market_value": 34919.36,
+      "sector": "Materials",
+      "industry": "Chemicals",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
@@ -1163,31 +1163,9 @@
       "identifier": "78709Y105",
       "pct_of_fund": 0.43,
       "quantity": 104,
-      "market_value": 35315.28,
+      "market_value": 34419.84,
       "sector": "Industrials",
       "industry": "Ground Transportation",
-      "security_type": "DOMESTIC COMMON STOCK"
-    },
-    {
-      "name": "ARES MANAGEMENT CORP",
-      "ticker": "ARES",
-      "identifier": "03990B101",
-      "pct_of_fund": 0.42,
-      "quantity": 248,
-      "market_value": 34196.72,
-      "sector": "Financials",
-      "industry": "Capital Markets",
-      "security_type": "DOMESTIC COMMON STOCK"
-    },
-    {
-      "name": "TEXTRON INC COMMON STOCK",
-      "ticker": "TXT",
-      "identifier": "883203101",
-      "pct_of_fund": 0.42,
-      "quantity": 395,
-      "market_value": 33946.3,
-      "sector": "Industrials",
-      "industry": "Aerospace & Defense",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
@@ -1196,9 +1174,31 @@
       "identifier": "038336103",
       "pct_of_fund": 0.42,
       "quantity": 238,
-      "market_value": 33934.04,
+      "market_value": 33729.36,
       "sector": "Materials",
       "industry": "Containers & Packaging",
+      "security_type": "DOMESTIC COMMON STOCK"
+    },
+    {
+      "name": "TEXTRON INC COMMON STOCK",
+      "ticker": "TXT",
+      "identifier": "883203101",
+      "pct_of_fund": 0.41,
+      "quantity": 395,
+      "market_value": 33302.45,
+      "sector": "Industrials",
+      "industry": "Aerospace & Defense",
+      "security_type": "DOMESTIC COMMON STOCK"
+    },
+    {
+      "name": "ARES MANAGEMENT CORP",
+      "ticker": "ARES",
+      "identifier": "03990B101",
+      "pct_of_fund": 0.41,
+      "quantity": 248,
+      "market_value": 33055.92,
+      "sector": "Financials",
+      "industry": "Capital Markets",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
@@ -1207,7 +1207,7 @@
       "identifier": "98980L101",
       "pct_of_fund": 0.41,
       "quantity": 338,
-      "market_value": 33151.04,
+      "market_value": 33022.6,
       "sector": "Information Technology",
       "industry": "Software",
       "security_type": "DOMESTIC COMMON STOCK"
@@ -1216,9 +1216,9 @@
       "name": "LIVE NATION ENTERTAINMENT",
       "ticker": "LYV",
       "identifier": "538034109",
-      "pct_of_fund": 0.4,
+      "pct_of_fund": 0.41,
       "quantity": 183,
-      "market_value": 32969.28,
+      "market_value": 32965.62,
       "sector": "Communication Services",
       "industry": "Entertainment",
       "security_type": "DOMESTIC COMMON STOCK"
@@ -1229,29 +1229,18 @@
       "identifier": "466313103",
       "pct_of_fund": 0.39,
       "quantity": 123,
-      "market_value": 31843.47,
+      "market_value": 31975.08,
       "sector": "Information Technology",
       "industry": "Electronic Equipment, Instruments & Components",
-      "security_type": "DOMESTIC COMMON STOCK"
-    },
-    {
-      "name": "FIDELITY NATIONAL",
-      "ticker": "FIS",
-      "identifier": "31620M106",
-      "pct_of_fund": 0.39,
-      "quantity": 1042,
-      "market_value": 31478.82,
-      "sector": "Financials",
-      "industry": "Financial Services",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
       "name": "MICROCHIP TECHNOLOGY INC",
       "ticker": "MCHP",
       "identifier": "595017104",
-      "pct_of_fund": 0.38,
+      "pct_of_fund": 0.39,
       "quantity": 504,
-      "market_value": 31313.52,
+      "market_value": 31288.32,
       "sector": "Information Technology",
       "industry": "Semiconductors & Semiconductor Equipment",
       "security_type": "DOMESTIC COMMON STOCK"
@@ -1262,42 +1251,20 @@
       "identifier": "34964C106",
       "pct_of_fund": 0.37,
       "quantity": 622,
-      "market_value": 30583.74,
+      "market_value": 29600.98,
       "sector": "Industrials",
       "industry": "Building Products",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
-      "name": "ROBINHOOD MARKETS INC",
-      "ticker": "HOOD",
-      "identifier": "770700102",
-      "pct_of_fund": 0.37,
-      "quantity": 353,
-      "market_value": 29856.74,
+      "name": "FIDELITY NATIONAL",
+      "ticker": "FIS",
+      "identifier": "31620M106",
+      "pct_of_fund": 0.36,
+      "quantity": 1042,
+      "market_value": 29551.12,
       "sector": "Financials",
-      "industry": "Capital Markets",
-      "security_type": "DOMESTIC COMMON STOCK"
-    },
-    {
-      "name": "CHURCH & DWIGHT CO INC",
-      "ticker": "CHD",
-      "identifier": "171340102",
-      "pct_of_fund": 0.36,
-      "quantity": 264,
-      "market_value": 29573.28,
-      "sector": "Consumer Staples",
-      "industry": "Household Products",
-      "security_type": "DOMESTIC COMMON STOCK"
-    },
-    {
-      "name": "ZIMMER BIOMET HOLDINGS",
-      "ticker": "ZBH",
-      "identifier": "98956P102",
-      "pct_of_fund": 0.36,
-      "quantity": 275,
-      "market_value": 29554.25,
-      "sector": "Health Care",
-      "industry": "Health Care Equipment & Supplies",
+      "industry": "Financial Services",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
@@ -1306,9 +1273,42 @@
       "identifier": "552848103",
       "pct_of_fund": 0.36,
       "quantity": 1061,
-      "market_value": 29389.7,
+      "market_value": 29453.36,
       "sector": "Financials",
       "industry": "Financial Services",
+      "security_type": "DOMESTIC COMMON STOCK"
+    },
+    {
+      "name": "CHURCH & DWIGHT CO INC",
+      "ticker": "CHD",
+      "identifier": "171340102",
+      "pct_of_fund": 0.36,
+      "quantity": 264,
+      "market_value": 29415.54,
+      "sector": "Consumer Staples",
+      "industry": "Household Products",
+      "security_type": "DOMESTIC COMMON STOCK"
+    },
+    {
+      "name": "CLOUDFLARE INC COMMON",
+      "ticker": "NET",
+      "identifier": "18915M107",
+      "pct_of_fund": 0.36,
+      "quantity": 92,
+      "market_value": 29302.0,
+      "sector": "Information Technology",
+      "industry": "IT Services",
+      "security_type": "DOMESTIC COMMON STOCK"
+    },
+    {
+      "name": "EQT CORP COMMON STOCK USD",
+      "ticker": "EQT",
+      "identifier": "26884L109",
+      "pct_of_fund": 0.36,
+      "quantity": 553,
+      "market_value": 28955.08,
+      "sector": "Energy",
+      "industry": "Oil, Gas & Consumable Fuels",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
@@ -1317,42 +1317,53 @@
       "identifier": "42250P103",
       "pct_of_fund": 0.36,
       "quantity": 1441,
-      "market_value": 29367.58,
+      "market_value": 28846.41,
       "sector": "Real Estate",
       "industry": "Health Care REITs",
       "security_type": "REIT"
     },
     {
-      "name": "EQT CORP COMMON STOCK USD",
-      "ticker": "EQT",
-      "identifier": "26884L109",
+      "name": "ZIMMER BIOMET HOLDINGS",
+      "ticker": "ZBH",
+      "identifier": "98956P102",
       "pct_of_fund": 0.36,
-      "quantity": 553,
-      "market_value": 29137.57,
-      "sector": "Energy",
-      "industry": "Oil, Gas & Consumable Fuels",
+      "quantity": 275,
+      "market_value": 28754.0,
+      "sector": "Health Care",
+      "industry": "Health Care Equipment & Supplies",
+      "security_type": "DOMESTIC COMMON STOCK"
+    },
+    {
+      "name": "ROBINHOOD MARKETS INC",
+      "ticker": "HOOD",
+      "identifier": "770700102",
+      "pct_of_fund": 0.35,
+      "quantity": 353,
+      "market_value": 28716.55,
+      "sector": "Financials",
+      "industry": "Capital Markets",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
       "name": "CORE & MAIN INC COMMON",
       "ticker": "CNM",
       "identifier": "21874C102",
-      "pct_of_fund": 0.36,
+      "pct_of_fund": 0.35,
       "quantity": 632,
-      "market_value": 29072.0,
+      "market_value": 28199.84,
       "sector": "Industrials",
       "industry": "Trading Companies & Distributors",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
-      "name": "CLOUDFLARE INC COMMON",
-      "ticker": "NET",
-      "identifier": "18915M107",
+      "name": "ITT INC COMMON STOCK USD",
+      "ticker": "ITT",
+      "identifier": "45073V108",
       "pct_of_fund": 0.35,
-      "quantity": 92,
-      "market_value": 28980.0,
-      "sector": "Information Technology",
-      "industry": "IT Services",
+      "quantity": 131,
+      "market_value": 28111.29,
+      "sector": "Industrials",
+      "industry": "Machinery",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
@@ -1361,7 +1372,7 @@
       "identifier": "457669307",
       "pct_of_fund": 0.35,
       "quantity": 238,
-      "market_value": 28738.5,
+      "market_value": 28100.66,
       "sector": "Health Care",
       "industry": "Biotechnology",
       "security_type": "DOMESTIC COMMON STOCK"
@@ -1370,22 +1381,22 @@
       "name": "ARTHUR J GALLAGHER & CO",
       "ticker": "AJG",
       "identifier": "363576109",
-      "pct_of_fund": 0.35,
+      "pct_of_fund": 0.34,
       "quantity": 100,
-      "market_value": 28201.0,
+      "market_value": 27728.0,
       "sector": "Financials",
       "industry": "Insurance",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
-      "name": "ITT INC COMMON STOCK USD",
-      "ticker": "ITT",
-      "identifier": "45073V108",
+      "name": "NUTANIX INC COMMON STOCK",
+      "ticker": "NTNX",
+      "identifier": "67059N108",
       "pct_of_fund": 0.34,
-      "quantity": 131,
-      "market_value": 28166.31,
-      "sector": "Industrials",
-      "industry": "Machinery",
+      "quantity": 454,
+      "market_value": 27634.98,
+      "sector": "Information Technology",
+      "industry": "Software",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
@@ -1394,20 +1405,9 @@
       "identifier": "26969P108",
       "pct_of_fund": 0.34,
       "quantity": 150,
-      "market_value": 27636.0,
+      "market_value": 27339.0,
       "sector": "Materials",
       "industry": "Construction Materials",
-      "security_type": "DOMESTIC COMMON STOCK"
-    },
-    {
-      "name": "NUTANIX INC COMMON STOCK",
-      "ticker": "NTNX",
-      "identifier": "67059N108",
-      "pct_of_fund": 0.33,
-      "quantity": 454,
-      "market_value": 27303.56,
-      "sector": "Information Technology",
-      "industry": "Software",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
@@ -1416,20 +1416,9 @@
       "identifier": "902252105",
       "pct_of_fund": 0.33,
       "quantity": 64,
-      "market_value": 27233.28,
+      "market_value": 27109.76,
       "sector": "Information Technology",
       "industry": "Software",
-      "security_type": "DOMESTIC COMMON STOCK"
-    },
-    {
-      "name": "NEUROCRINE BIOSCIENCES",
-      "ticker": "NBIX",
-      "identifier": "64125C109",
-      "pct_of_fund": 0.33,
-      "quantity": 155,
-      "market_value": 27033.55,
-      "sector": "Health Care",
-      "industry": "Biotechnology",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
@@ -1444,25 +1433,25 @@
       "security_type": "CURRENCIES"
     },
     {
-      "name": "MASCO CORP COMMON STOCK",
-      "ticker": "MAS",
-      "identifier": "574599106",
-      "pct_of_fund": 0.33,
-      "quantity": 317,
-      "market_value": 26916.47,
-      "sector": "Industrials",
-      "industry": "Building Products",
-      "security_type": "DOMESTIC COMMON STOCK"
-    },
-    {
       "name": "RLI CORP COMMON STOCK USD",
       "ticker": "RLI",
       "identifier": "749607107",
       "pct_of_fund": 0.33,
       "quantity": 390,
-      "market_value": 26793.0,
+      "market_value": 26956.8,
       "sector": "Financials",
       "industry": "Insurance",
+      "security_type": "DOMESTIC COMMON STOCK"
+    },
+    {
+      "name": "MASCO CORP COMMON STOCK",
+      "ticker": "MAS",
+      "identifier": "574599106",
+      "pct_of_fund": 0.33,
+      "quantity": 317,
+      "market_value": 26780.16,
+      "sector": "Industrials",
+      "industry": "Building Products",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
@@ -1471,18 +1460,40 @@
       "identifier": "962166104",
       "pct_of_fund": 0.33,
       "quantity": 1297,
-      "market_value": 26783.05,
+      "market_value": 26536.62,
       "sector": "Real Estate",
       "industry": "Specialized REITs",
       "security_type": "REIT"
     },
     {
+      "name": "NEUROCRINE BIOSCIENCES",
+      "ticker": "NBIX",
+      "identifier": "64125C109",
+      "pct_of_fund": 0.32,
+      "quantity": 155,
+      "market_value": 26257.0,
+      "sector": "Health Care",
+      "industry": "Biotechnology",
+      "security_type": "DOMESTIC COMMON STOCK"
+    },
+    {
+      "name": "MONGODB INC COMMON STOCK",
+      "ticker": "MDB",
+      "identifier": "60937P106",
+      "pct_of_fund": 0.32,
+      "quantity": 77,
+      "market_value": 26163.06,
+      "sector": "Information Technology",
+      "industry": "IT Services",
+      "security_type": "DOMESTIC COMMON STOCK"
+    },
+    {
       "name": "LEIDOS HOLDINGS INC",
       "ticker": "LDOS",
       "identifier": "525327102",
-      "pct_of_fund": 0.33,
+      "pct_of_fund": 0.32,
       "quantity": 199,
-      "market_value": 26644.11,
+      "market_value": 26090.89,
       "sector": "Industrials",
       "industry": "Professional Services",
       "security_type": "DOMESTIC COMMON STOCK"
@@ -1493,7 +1504,7 @@
       "identifier": "565394103",
       "pct_of_fund": 0.32,
       "quantity": 446,
-      "market_value": 26256.02,
+      "market_value": 26082.08,
       "sector": "Consumer Staples",
       "industry": "Consumer Staples Distribution & Retail",
       "security_type": "DOMESTIC COMMON STOCK"
@@ -1504,32 +1515,10 @@
       "identifier": "59522J103",
       "pct_of_fund": 0.32,
       "quantity": 221,
-      "market_value": 26119.99,
+      "market_value": 25757.55,
       "sector": "Real Estate",
       "industry": "Residential REITs",
       "security_type": "REIT"
-    },
-    {
-      "name": "MONGODB INC COMMON STOCK",
-      "ticker": "MDB",
-      "identifier": "60937P106",
-      "pct_of_fund": 0.32,
-      "quantity": 77,
-      "market_value": 26035.24,
-      "sector": "Information Technology",
-      "industry": "IT Services",
-      "security_type": "DOMESTIC COMMON STOCK"
-    },
-    {
-      "name": "AFFIRM HOLDINGS INC",
-      "ticker": "AFRM",
-      "identifier": "00827B106",
-      "pct_of_fund": 0.32,
-      "quantity": 382,
-      "market_value": 25914.88,
-      "sector": "Financials",
-      "industry": "Financial Services",
-      "security_type": "DOMESTIC COMMON STOCK"
     },
     {
       "name": "LINCOLN ELECTRIC HOLDINGS",
@@ -1537,9 +1526,20 @@
       "identifier": "533900106",
       "pct_of_fund": 0.31,
       "quantity": 89,
-      "market_value": 25644.46,
+      "market_value": 25329.4,
       "sector": "Industrials",
       "industry": "Machinery",
+      "security_type": "DOMESTIC COMMON STOCK"
+    },
+    {
+      "name": "AFFIRM HOLDINGS INC",
+      "ticker": "AFRM",
+      "identifier": "00827B106",
+      "pct_of_fund": 0.31,
+      "quantity": 382,
+      "market_value": 25150.88,
+      "sector": "Financials",
+      "industry": "Financial Services",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
@@ -1548,7 +1548,7 @@
       "identifier": "231021106",
       "pct_of_fund": 0.3,
       "quantity": 53,
-      "market_value": 24552.78,
+      "market_value": 24136.2,
       "sector": "Industrials",
       "industry": "Machinery",
       "security_type": "DOMESTIC COMMON STOCK"
@@ -1557,33 +1557,11 @@
       "name": "TYSON FOODS INC COMMON",
       "ticker": "TSN",
       "identifier": "902494103",
-      "pct_of_fund": 0.3,
+      "pct_of_fund": 0.29,
       "quantity": 403,
-      "market_value": 24127.61,
+      "market_value": 23881.78,
       "sector": "Consumer Staples",
       "industry": "Food Products",
-      "security_type": "DOMESTIC COMMON STOCK"
-    },
-    {
-      "name": "ALCOA CORP COMMON STOCK",
-      "ticker": "AA",
-      "identifier": "013872106",
-      "pct_of_fund": 0.29,
-      "quantity": 580,
-      "market_value": 23803.2,
-      "sector": "Materials",
-      "industry": "Metals & Mining",
-      "security_type": "DOMESTIC COMMON STOCK"
-    },
-    {
-      "name": "ROCKET LAB CORP COMMON",
-      "ticker": "RKLB",
-      "identifier": "773121108",
-      "pct_of_fund": 0.29,
-      "quantity": 358,
-      "market_value": 23681.7,
-      "sector": "Industrials",
-      "industry": "Aerospace & Defense",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
@@ -1592,9 +1570,31 @@
       "identifier": "744320102",
       "pct_of_fund": 0.29,
       "quantity": 192,
-      "market_value": 23623.68,
+      "market_value": 23502.72,
       "sector": "Financials",
       "industry": "Insurance",
+      "security_type": "DOMESTIC COMMON STOCK"
+    },
+    {
+      "name": "ALCOA CORP COMMON STOCK",
+      "ticker": "AA",
+      "identifier": "013872106",
+      "pct_of_fund": 0.29,
+      "quantity": 580,
+      "market_value": 23461.0,
+      "sector": "Materials",
+      "industry": "Metals & Mining",
+      "security_type": "DOMESTIC COMMON STOCK"
+    },
+    {
+      "name": "ROCKET LAB CORP COMMON",
+      "ticker": "RKLB",
+      "identifier": "773121108",
+      "pct_of_fund": 0.28,
+      "quantity": 358,
+      "market_value": 22937.06,
+      "sector": "Industrials",
+      "industry": "Aerospace & Defense",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
@@ -1603,9 +1603,20 @@
       "identifier": "737446104",
       "pct_of_fund": 0.28,
       "quantity": 286,
-      "market_value": 23117.38,
+      "market_value": 22771.32,
       "sector": "Consumer Staples",
       "industry": "Food Products",
+      "security_type": "DOMESTIC COMMON STOCK"
+    },
+    {
+      "name": "TRACTOR SUPPLY CO COMMON",
+      "ticker": "TSCO",
+      "identifier": "892356106",
+      "pct_of_fund": 0.28,
+      "quantity": 619,
+      "market_value": 22673.97,
+      "sector": "Consumer Discretionary",
+      "industry": "Specialty Retail",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
@@ -1614,7 +1625,7 @@
       "identifier": "370334104",
       "pct_of_fund": 0.28,
       "quantity": 673,
-      "market_value": 23023.33,
+      "market_value": 22558.96,
       "sector": "Consumer Staples",
       "industry": "Food Products",
       "security_type": "DOMESTIC COMMON STOCK"
@@ -1625,20 +1636,9 @@
       "identifier": "02043Q107",
       "pct_of_fund": 0.28,
       "quantity": 143,
-      "market_value": 22858.55,
+      "market_value": 22400.95,
       "sector": "Health Care",
       "industry": "Biotechnology",
-      "security_type": "DOMESTIC COMMON STOCK"
-    },
-    {
-      "name": "TRACTOR SUPPLY CO COMMON",
-      "ticker": "TSCO",
-      "identifier": "892356106",
-      "pct_of_fund": 0.28,
-      "quantity": 619,
-      "market_value": 22742.06,
-      "sector": "Consumer Discretionary",
-      "industry": "Specialty Retail",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
@@ -1647,7 +1647,7 @@
       "identifier": "443510607",
       "pct_of_fund": 0.28,
       "quantity": 51,
-      "market_value": 22617.48,
+      "market_value": 22336.98,
       "sector": "Industrials",
       "industry": "Electrical Equipment",
       "security_type": "DOMESTIC COMMON STOCK"
@@ -1658,10 +1658,21 @@
       "identifier": "070830104",
       "pct_of_fund": 0.27,
       "quantity": 1030,
-      "market_value": 22371.6,
+      "market_value": 21712.4,
       "sector": "Consumer Discretionary",
       "industry": "Specialty Retail",
       "security_type": "DOMESTIC COMMON STOCK"
+    },
+    {
+      "name": "DIGITAL REALTY TRUST INC",
+      "ticker": "DLR",
+      "identifier": "253868103",
+      "pct_of_fund": 0.27,
+      "quantity": 118,
+      "market_value": 21649.46,
+      "sector": "Real Estate",
+      "industry": "Specialized REITs",
+      "security_type": "REIT"
     },
     {
       "name": "LPL FINANCIAL HOLDINGS",
@@ -1669,9 +1680,20 @@
       "identifier": "50212V100",
       "pct_of_fund": 0.27,
       "quantity": 74,
-      "market_value": 22297.68,
+      "market_value": 21627.98,
       "sector": "Financials",
       "industry": "Capital Markets",
+      "security_type": "DOMESTIC COMMON STOCK"
+    },
+    {
+      "name": "ELANCO ANIMAL HEALTH INC",
+      "ticker": "ELAN",
+      "identifier": "28414H103",
+      "pct_of_fund": 0.26,
+      "quantity": 806,
+      "market_value": 21359.0,
+      "sector": "Health Care",
+      "industry": "Pharmaceuticals",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
@@ -1680,42 +1702,9 @@
       "identifier": "70438V106",
       "pct_of_fund": 0.26,
       "quantity": 119,
-      "market_value": 21424.76,
+      "market_value": 21291.48,
       "sector": "Industrials",
       "industry": "Professional Services",
-      "security_type": "DOMESTIC COMMON STOCK"
-    },
-    {
-      "name": "DIGITAL REALTY TRUST INC",
-      "ticker": "DLR",
-      "identifier": "253868103",
-      "pct_of_fund": 0.26,
-      "quantity": 118,
-      "market_value": 21373.34,
-      "sector": "Real Estate",
-      "industry": "Specialized REITs",
-      "security_type": "REIT"
-    },
-    {
-      "name": "ELANCO ANIMAL HEALTH INC",
-      "ticker": "ELAN",
-      "identifier": "28414H103",
-      "pct_of_fund": 0.26,
-      "quantity": 806,
-      "market_value": 21342.88,
-      "sector": "Health Care",
-      "industry": "Pharmaceuticals",
-      "security_type": "DOMESTIC COMMON STOCK"
-    },
-    {
-      "name": "ENVISTA HOLDINGS CORP",
-      "ticker": "NVST",
-      "identifier": "29415F104",
-      "pct_of_fund": 0.25,
-      "quantity": 814,
-      "market_value": 20610.48,
-      "sector": "Health Care",
-      "industry": "Health Care Equipment & Supplies",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
@@ -1724,9 +1713,20 @@
       "identifier": "380237107",
       "pct_of_fund": 0.25,
       "quantity": 181,
-      "market_value": 20550.74,
+      "market_value": 20331.73,
       "sector": "Information Technology",
       "industry": "IT Services",
+      "security_type": "DOMESTIC COMMON STOCK"
+    },
+    {
+      "name": "ENVISTA HOLDINGS CORP",
+      "ticker": "NVST",
+      "identifier": "29415F104",
+      "pct_of_fund": 0.25,
+      "quantity": 814,
+      "market_value": 20073.24,
+      "sector": "Health Care",
+      "industry": "Health Care Equipment & Supplies",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
@@ -1735,7 +1735,7 @@
       "identifier": "958102105",
       "pct_of_fund": 0.24,
       "quantity": 63,
-      "market_value": 19738.53,
+      "market_value": 19606.23,
       "sector": "Information Technology",
       "industry": "Computers & Peripherals",
       "security_type": "DOMESTIC COMMON STOCK"
@@ -1744,9 +1744,9 @@
       "name": "PUBLIC SERVICE ENTERPRISE",
       "ticker": "PEG",
       "identifier": "744573106",
-      "pct_of_fund": 0.22,
+      "pct_of_fund": 0.23,
       "quantity": 246,
-      "market_value": 18275.34,
+      "market_value": 18400.8,
       "sector": "Utilities",
       "industry": "Multi-Utilities",
       "security_type": "DOMESTIC COMMON STOCK"
@@ -1757,9 +1757,20 @@
       "identifier": "892672106",
       "pct_of_fund": 0.22,
       "quantity": 138,
-      "market_value": 18022.8,
+      "market_value": 18166.32,
       "sector": "Financials",
       "industry": "Capital Markets",
+      "security_type": "DOMESTIC COMMON STOCK"
+    },
+    {
+      "name": "AAON INC COMMON STOCK USD",
+      "ticker": "AAON",
+      "identifier": "000360206",
+      "pct_of_fund": 0.22,
+      "quantity": 228,
+      "market_value": 17966.4,
+      "sector": "Industrials",
+      "industry": "Building Products",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
@@ -1768,31 +1779,20 @@
       "identifier": "02005N100",
       "pct_of_fund": 0.22,
       "quantity": 469,
-      "market_value": 17948.63,
+      "market_value": 17822.0,
       "sector": "Financials",
       "industry": "Consumer Finance",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
-      "name": "MODERNA INC COMMON STOCK",
-      "ticker": "MRNA",
-      "identifier": "60770K107",
-      "pct_of_fund": 0.22,
-      "quantity": 72,
-      "market_value": 17905.68,
-      "sector": "Health Care",
-      "industry": "Biotechnology",
-      "security_type": "DOMESTIC COMMON STOCK"
-    },
-    {
-      "name": "AAON INC COMMON STOCK USD",
-      "ticker": "AAON",
-      "identifier": "000360206",
+      "name": "HUBSPOT INC COMMON STOCK",
+      "ticker": "HUBS",
+      "identifier": "443573100",
       "pct_of_fund": 0.21,
-      "quantity": 228,
-      "market_value": 17403.24,
-      "sector": "Industrials",
-      "industry": "Building Products",
+      "quantity": 80,
+      "market_value": 17267.2,
+      "sector": "Information Technology",
+      "industry": "Software",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
@@ -1801,9 +1801,20 @@
       "identifier": "501889208",
       "pct_of_fund": 0.21,
       "quantity": 862,
-      "market_value": 17231.38,
+      "market_value": 16990.02,
       "sector": "Consumer Discretionary",
       "industry": "Distributors",
+      "security_type": "DOMESTIC COMMON STOCK"
+    },
+    {
+      "name": "MODERNA INC COMMON STOCK",
+      "ticker": "MRNA",
+      "identifier": "60770K107",
+      "pct_of_fund": 0.21,
+      "quantity": 72,
+      "market_value": 16657.2,
+      "sector": "Health Care",
+      "industry": "Biotechnology",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
@@ -1812,20 +1823,9 @@
       "identifier": "316773100",
       "pct_of_fund": 0.2,
       "quantity": 305,
-      "market_value": 16592.0,
+      "market_value": 16439.5,
       "sector": "Financials",
       "industry": "Commercial Banks",
-      "security_type": "DOMESTIC COMMON STOCK"
-    },
-    {
-      "name": "HUBSPOT INC COMMON STOCK",
-      "ticker": "HUBS",
-      "identifier": "443573100",
-      "pct_of_fund": 0.2,
-      "quantity": 80,
-      "market_value": 16230.4,
-      "sector": "Information Technology",
-      "industry": "Software",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
@@ -1834,7 +1834,7 @@
       "identifier": "366651107",
       "pct_of_fund": 0.2,
       "quantity": 84,
-      "market_value": 16212.0,
+      "market_value": 16030.56,
       "sector": "Information Technology",
       "industry": "IT Services",
       "security_type": "DOMESTIC COMMON STOCK"
@@ -1845,7 +1845,7 @@
       "identifier": "750917106",
       "pct_of_fund": 0.2,
       "quantity": 188,
-      "market_value": 16047.68,
+      "market_value": 15974.36,
       "sector": "Information Technology",
       "industry": "Semiconductors & Semiconductor Equipment",
       "security_type": "DOMESTIC COMMON STOCK"
@@ -1856,7 +1856,18 @@
       "identifier": "163851108",
       "pct_of_fund": 0.19,
       "quantity": 1157,
-      "market_value": 15874.04,
+      "market_value": 15445.95,
+      "sector": "Materials",
+      "industry": "Chemicals",
+      "security_type": "DOMESTIC COMMON STOCK"
+    },
+    {
+      "name": "LYONDELLBASELL INDUSTRIES",
+      "ticker": "LYB",
+      "identifier": "N53745100",
+      "pct_of_fund": 0.19,
+      "quantity": 238,
+      "market_value": 15203.44,
       "sector": "Materials",
       "industry": "Chemicals",
       "security_type": "DOMESTIC COMMON STOCK"
@@ -1867,53 +1878,9 @@
       "identifier": "55405Y100",
       "pct_of_fund": 0.19,
       "quantity": 61,
-      "market_value": 15241.46,
+      "market_value": 14991.36,
       "sector": "Information Technology",
       "industry": "Semiconductors & Semiconductor Equipment",
-      "security_type": "DOMESTIC COMMON STOCK"
-    },
-    {
-      "name": "LYONDELLBASELL INDUSTRIES",
-      "ticker": "LYB",
-      "identifier": "N53745100",
-      "pct_of_fund": 0.18,
-      "quantity": 238,
-      "market_value": 14894.04,
-      "sector": "Materials",
-      "industry": "Chemicals",
-      "security_type": "DOMESTIC COMMON STOCK"
-    },
-    {
-      "name": "BLOCK INC COMMON STOCK",
-      "ticker": "XYZ",
-      "identifier": "852234103",
-      "pct_of_fund": 0.18,
-      "quantity": 173,
-      "market_value": 14829.56,
-      "sector": "Financials",
-      "industry": "Financial Services",
-      "security_type": "DOMESTIC COMMON STOCK"
-    },
-    {
-      "name": "FABRINET COMMON STOCK USD",
-      "ticker": "FN",
-      "identifier": "G3323L100",
-      "pct_of_fund": 0.18,
-      "quantity": 40,
-      "market_value": 14760.4,
-      "sector": "Information Technology",
-      "industry": "Electronic Equipment, Instruments & Components",
-      "security_type": "DOMESTIC COMMON STOCK"
-    },
-    {
-      "name": "CHARTER COMMUNICATIONS",
-      "ticker": "CHTR",
-      "identifier": "16119P108",
-      "pct_of_fund": 0.18,
-      "quantity": 107,
-      "market_value": 14585.17,
-      "sector": "Communication Services",
-      "industry": "Media",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
@@ -1922,7 +1889,7 @@
       "identifier": "099502106",
       "pct_of_fund": 0.18,
       "quantity": 169,
-      "market_value": 14584.7,
+      "market_value": 14608.36,
       "sector": "Industrials",
       "industry": "Professional Services",
       "security_type": "DOMESTIC COMMON STOCK"
@@ -1931,9 +1898,9 @@
       "name": "VERTIV HOLDINGS CO",
       "ticker": "VRT",
       "identifier": "92537N108",
-      "pct_of_fund": 0.17,
+      "pct_of_fund": 0.18,
       "quantity": 69,
-      "market_value": 14249.19,
+      "market_value": 14465.16,
       "sector": "Industrials",
       "industry": "Electrical Equipment",
       "security_type": "DOMESTIC COMMON STOCK"
@@ -1942,11 +1909,44 @@
       "name": "DEXCOM INC COMMON STOCK",
       "ticker": "DXCM",
       "identifier": "252131107",
-      "pct_of_fund": 0.17,
+      "pct_of_fund": 0.18,
       "quantity": 177,
-      "market_value": 14221.07,
+      "market_value": 14406.03,
       "sector": "Health Care",
       "industry": "Health Care Equipment & Supplies",
+      "security_type": "DOMESTIC COMMON STOCK"
+    },
+    {
+      "name": "BLOCK INC COMMON STOCK",
+      "ticker": "XYZ",
+      "identifier": "852234103",
+      "pct_of_fund": 0.18,
+      "quantity": 173,
+      "market_value": 14230.98,
+      "sector": "Financials",
+      "industry": "Financial Services",
+      "security_type": "DOMESTIC COMMON STOCK"
+    },
+    {
+      "name": "CHARTER COMMUNICATIONS",
+      "ticker": "CHTR",
+      "identifier": "16119P108",
+      "pct_of_fund": 0.18,
+      "quantity": 107,
+      "market_value": 14194.62,
+      "sector": "Communication Services",
+      "industry": "Media",
+      "security_type": "DOMESTIC COMMON STOCK"
+    },
+    {
+      "name": "FABRINET COMMON STOCK USD",
+      "ticker": "FN",
+      "identifier": "G3323L100",
+      "pct_of_fund": 0.17,
+      "quantity": 40,
+      "market_value": 14153.2,
+      "sector": "Information Technology",
+      "industry": "Electronic Equipment, Instruments & Components",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
@@ -1955,18 +1955,29 @@
       "identifier": "372460105",
       "pct_of_fund": 0.17,
       "quantity": 113,
-      "market_value": 13983.75,
+      "market_value": 13880.92,
       "sector": "Consumer Discretionary",
       "industry": "Distributors",
+      "security_type": "DOMESTIC COMMON STOCK"
+    },
+    {
+      "name": "DIGITALOCEAN HOLDINGS INC",
+      "ticker": "DOCN",
+      "identifier": "25402D102",
+      "pct_of_fund": 0.17,
+      "quantity": 152,
+      "market_value": 13690.64,
+      "sector": "Information Technology",
+      "industry": "IT Services",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
       "name": "LUMENTUM HOLDINGS INC",
       "ticker": "LITE",
       "identifier": "55024U109",
-      "pct_of_fund": 0.17,
+      "pct_of_fund": 0.16,
       "quantity": 21,
-      "market_value": 13609.26,
+      "market_value": 13117.65,
       "sector": "Information Technology",
       "industry": "Communications Equipment",
       "security_type": "DOMESTIC COMMON STOCK"
@@ -1977,7 +1988,7 @@
       "identifier": "494368103",
       "pct_of_fund": 0.16,
       "quantity": 122,
-      "market_value": 13280.92,
+      "market_value": 13077.18,
       "sector": "Consumer Staples",
       "industry": "Household Products",
       "security_type": "DOMESTIC COMMON STOCK"
@@ -1988,20 +1999,9 @@
       "identifier": "G3643J108",
       "pct_of_fund": 0.16,
       "quantity": 155,
-      "market_value": 13250.95,
+      "market_value": 12705.35,
       "sector": "Consumer Discretionary",
       "industry": "Hotels, Restaurants & Leisure",
-      "security_type": "DOMESTIC COMMON STOCK"
-    },
-    {
-      "name": "DIGITALOCEAN HOLDINGS INC",
-      "ticker": "DOCN",
-      "identifier": "25402D102",
-      "pct_of_fund": 0.16,
-      "quantity": 152,
-      "market_value": 13246.8,
-      "sector": "Information Technology",
-      "industry": "IT Services",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
@@ -2010,7 +2010,7 @@
       "identifier": "05464C101",
       "pct_of_fund": 0.16,
       "quantity": 41,
-      "market_value": 12932.22,
+      "market_value": 12591.51,
       "sector": "Industrials",
       "industry": "Aerospace & Defense",
       "security_type": "DOMESTIC COMMON STOCK"
@@ -2021,7 +2021,7 @@
       "identifier": "72352L106",
       "pct_of_fund": 0.15,
       "quantity": 647,
-      "market_value": 12441.81,
+      "market_value": 12370.64,
       "sector": "Communication Services",
       "industry": "Interactive Media & Services",
       "security_type": "DOMESTIC COMMON STOCK"
@@ -2032,20 +2032,9 @@
       "identifier": "171779309",
       "pct_of_fund": 0.15,
       "quantity": 42,
-      "market_value": 12433.68,
+      "market_value": 12347.58,
       "sector": "Information Technology",
       "industry": "Communications Equipment",
-      "security_type": "DOMESTIC COMMON STOCK"
-    },
-    {
-      "name": "IRIDIUM COMMUNICATIONS",
-      "ticker": "IRDM",
-      "identifier": "46269C102",
-      "pct_of_fund": 0.14,
-      "quantity": 248,
-      "market_value": 11727.92,
-      "sector": "Communication Services",
-      "industry": "Diversified Telecommunication Services",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
@@ -2054,9 +2043,20 @@
       "identifier": "G3265R107",
       "pct_of_fund": 0.14,
       "quantity": 295,
-      "market_value": 11625.95,
+      "market_value": 11448.95,
       "sector": "Consumer Discretionary",
       "industry": "Automobile Components",
+      "security_type": "DOMESTIC COMMON STOCK"
+    },
+    {
+      "name": "IRIDIUM COMMUNICATIONS",
+      "ticker": "IRDM",
+      "identifier": "46269C102",
+      "pct_of_fund": 0.14,
+      "quantity": 248,
+      "market_value": 11437.76,
+      "sector": "Communication Services",
+      "industry": "Diversified Telecommunication Services",
       "security_type": "DOMESTIC COMMON STOCK"
     },
     {
@@ -2065,7 +2065,7 @@
       "identifier": "03064D108",
       "pct_of_fund": 0.14,
       "quantity": 716,
-      "market_value": 11584.88,
+      "market_value": 11384.4,
       "sector": "Real Estate",
       "industry": "Industrial REITs",
       "security_type": "REIT"
@@ -2076,7 +2076,7 @@
       "identifier": "771049103",
       "pct_of_fund": 0.14,
       "quantity": 214,
-      "market_value": 11258.54,
+      "market_value": 11003.88,
       "sector": "Communication Services",
       "industry": "Entertainment",
       "security_type": "DOMESTIC COMMON STOCK"
@@ -2087,7 +2087,7 @@
       "identifier": "04626A103",
       "pct_of_fund": 0.12,
       "quantity": 44,
-      "market_value": 10160.04,
+      "market_value": 10022.76,
       "sector": "Information Technology",
       "industry": "Semiconductors & Semiconductor Equipment",
       "security_type": "DOMESTIC COMMON STOCK"
@@ -2098,7 +2098,7 @@
       "identifier": "73278L105",
       "pct_of_fund": 0.11,
       "quantity": 42,
-      "market_value": 9062.76,
+      "market_value": 8998.08,
       "sector": "Consumer Discretionary",
       "industry": "Distributors",
       "security_type": "DOMESTIC COMMON STOCK"
@@ -2109,7 +2109,7 @@
       "identifier": "44891N208",
       "pct_of_fund": 0.11,
       "quantity": 200,
-      "market_value": 8792.0,
+      "market_value": 8710.0,
       "sector": "Communication Services",
       "industry": "Interactive Media & Services",
       "security_type": "DOMESTIC COMMON STOCK"
@@ -2120,7 +2120,7 @@
       "identifier": "925815102",
       "pct_of_fund": 0.11,
       "quantity": 52,
-      "market_value": 8741.2,
+      "market_value": 8563.88,
       "sector": "Industrials",
       "industry": "Electrical Equipment",
       "security_type": "DOMESTIC COMMON STOCK"
@@ -2129,9 +2129,9 @@
       "name": "TTM TECHNOLOGIES INC",
       "ticker": "TTMI",
       "identifier": "87305R109",
-      "pct_of_fund": 0.11,
+      "pct_of_fund": 0.1,
       "quantity": 111,
-      "market_value": 8735.7,
+      "market_value": 8467.08,
       "sector": "Information Technology",
       "industry": "Electronic Equipment, Instruments & Components",
       "security_type": "DOMESTIC COMMON STOCK"
@@ -2142,7 +2142,7 @@
       "identifier": "19247G107",
       "pct_of_fund": 0.09,
       "quantity": 32,
-      "market_value": 7504.32,
+      "market_value": 7426.56,
       "sector": "Information Technology",
       "industry": "Electronic Equipment, Instruments & Components",
       "security_type": "DOMESTIC COMMON STOCK"
@@ -2153,7 +2153,7 @@
       "identifier": "19260Q107",
       "pct_of_fund": 0.09,
       "quantity": 54,
-      "market_value": 7358.58,
+      "market_value": 7056.18,
       "sector": "Financials",
       "industry": "Capital Markets",
       "security_type": "DOMESTIC COMMON STOCK"
@@ -2164,7 +2164,7 @@
       "identifier": "109194100",
       "pct_of_fund": 0.08,
       "quantity": 127,
-      "market_value": 6592.57,
+      "market_value": 6704.33,
       "sector": "Consumer Discretionary",
       "industry": "Diversified Consumer Services",
       "security_type": "DOMESTIC COMMON STOCK"
@@ -2175,7 +2175,7 @@
       "identifier": "63947X101",
       "pct_of_fund": 0.08,
       "quantity": 290,
-      "market_value": 6493.1,
+      "market_value": 6484.4,
       "sector": "Information Technology",
       "industry": "Software",
       "security_type": "DOMESTIC COMMON STOCK"
@@ -2186,7 +2186,7 @@
       "identifier": "G25457105",
       "pct_of_fund": 0.08,
       "quantity": 45,
-      "market_value": 6363.45,
+      "market_value": 6291.45,
       "sector": "Information Technology",
       "industry": "Semiconductors & Semiconductor Equipment",
       "security_type": "DOMESTIC COMMON STOCK"
@@ -2195,9 +2195,9 @@
       "name": "TRADE DESK INC/THE COMMON",
       "ticker": "TTD",
       "identifier": "88339J105",
-      "pct_of_fund": 0.08,
+      "pct_of_fund": 0.07,
       "quantity": 388,
-      "market_value": 6200.24,
+      "market_value": 6002.36,
       "sector": "Communication Services",
       "industry": "Media",
       "security_type": "DOMESTIC COMMON STOCK"
@@ -2206,9 +2206,9 @@
       "name": "QUIDELORTHO CORP COMMON",
       "ticker": "QDEL",
       "identifier": "219798105",
-      "pct_of_fund": 0.07,
+      "pct_of_fund": 0.06,
       "quantity": 457,
-      "market_value": 5442.87,
+      "market_value": 4853.34,
       "sector": "Health Care",
       "industry": "Health Care Equipment & Supplies",
       "security_type": "DOMESTIC COMMON STOCK"
@@ -2219,7 +2219,7 @@
       "identifier": "92686J106",
       "pct_of_fund": 0.06,
       "quantity": 170,
-      "market_value": 4834.8,
+      "market_value": 4688.6,
       "sector": "Health Care",
       "industry": "Biotechnology",
       "security_type": "DOMESTIC COMMON STOCK"
@@ -2230,7 +2230,7 @@
       "identifier": "Y2573F102",
       "pct_of_fund": 0.06,
       "quantity": 60,
-      "market_value": 4738.2,
+      "market_value": 4687.2,
       "sector": "Information Technology",
       "industry": "Electronic Equipment, Instruments & Components",
       "security_type": "DOMESTIC COMMON STOCK"
@@ -2239,9 +2239,9 @@
       "name": "SUPER MICRO COMPUTER INC",
       "ticker": "SMCI",
       "identifier": "86800U302",
-      "pct_of_fund": 0.04,
+      "pct_of_fund": 0.03,
       "quantity": 101,
-      "market_value": 3073.43,
+      "market_value": 2725.99,
       "sector": "Information Technology",
       "industry": "Computers & Peripherals",
       "security_type": "DOMESTIC COMMON STOCK"
@@ -2261,9 +2261,9 @@
       "name": "CASH",
       "ticker": "",
       "identifier": "CASH",
-      "pct_of_fund": 0.0,
-      "quantity": 0,
-      "market_value": 0.54,
+      "pct_of_fund": -0.02,
+      "quantity": -1468,
+      "market_value": -1468.62,
       "sector": "",
       "industry": "",
       "security_type": "CURRENCIES"
@@ -2272,9 +2272,9 @@
       "name": "MCR EM S&P SC 12/18/2026",
       "ticker": "LVLZ6 Index",
       "identifier": "LVLZ6ID",
-      "pct_of_fund": -0.03,
+      "pct_of_fund": -0.05,
       "quantity": 9,
-      "market_value": -2635.9,
+      "market_value": -3895.9,
       "sector": "",
       "industry": "",
       "security_type": "EQUITY INDEX FUTURES"
